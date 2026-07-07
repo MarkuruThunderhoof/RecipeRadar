@@ -1,6 +1,7 @@
+
 # Recipe Radar
 
-##Description
+## Description
 Recipe Radar is a World of Warcraft UI addon that assists players in finding recipes. It knows about vendors who sell recipes in the current region or by profession. It has a number of filtering options and can even locate vendors on the world map.
 
 
@@ -12,35 +13,31 @@ You should be able to find the option to do this in your Key Bindings menu,
 all the way at the bottom.  Otherwise, you can hit the new icon on your
 minimap to open Recipe Radar or use the slash command, '/rrdr'.
 
-#Last changes:
+## OctoWoW Merge Roadmap
 
-v1.15.2
-- Fixed recipe icon misplacement on zoomed map
+- [ ] Populate missing recipes
+  - [ ] Alchemy
+  - [ ] Blacksmithing
+  - [ ] Cooking
+  - [ ] Enchanting
+  - [ ] Engineering
+  - [ ] First Aid
+  - [ ] Leatherworking
+  - [ ] Mining
+  - [ ] Poisons
+  - [ ] Tailoring
+  - [ ] Disguise
+  - [ ] Jewelcrafting
+- [ ] Replace all changed zone textures
+- [ ] Update NPC coordinates
+- [ ] Recalibrate zone-to-minimap conversion coefficients
 
-v1.15.1
 
-- Fixed minimap button placing
-
-v1.15
-
-- Added square minimaps support for icons on minimap & for minimapbutton
-- Fixed first startup errors
-- More support for MBB
-
-v1.14
-
-- Added MBB compatibility (better minimap button managment),
-- Added RUru localization by Maus
-
-#Download
-
-https://github.com/laytya/RecipeRadar-vanilla
-
-#Installation
+## Installation
 
 Just copy "RecipeRadar" folder to your addon's directory.
 
-#Credits
+## Credits
 
 originaly made by Jay Miller [jnmiller@cryptofreak.org]
 http://www.cryptofreak.org/projects/reciperadar/
