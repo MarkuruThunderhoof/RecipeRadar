@@ -1,5 +1,8 @@
 Recipe Radar (vanilla) ChangeLog
 
+v1.15.2; 07.07.2026
+- Fixed recipe icon misplacement on zoomed map
+
 v1.15.1; 22.10.2022
 - Fixed minimap button placing
 

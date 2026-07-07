@@ -14,6 +14,9 @@ minimap to open Recipe Radar or use the slash command, '/rrdr'.
 
 #Last changes:
 
+v1.15.2
+- Fixed recipe icon misplacement on zoomed map
+
 v1.15.1
 
 - Fixed minimap button placing

@@ -57,7 +57,7 @@
    <Button name="RecipeRadarMinimapIcon19" inherits="RecipeRadarMinimapIconTemplate"/>
    <Button name="RecipeRadarMinimapIcon20" inherits="RecipeRadarMinimapIconTemplate"/>
 
-   <Button name="RecipeRadarWorldmapIconTemplate" hidden="true" parent="WorldMapFrame" virtual="true">
+   <Button name="RecipeRadarWorldmapIconTemplate" hidden="true" parent="WorldMapDetailFrame" virtual="true">
       <Size>
          <AbsDimension x="16" y="16"/>
       </Size>
