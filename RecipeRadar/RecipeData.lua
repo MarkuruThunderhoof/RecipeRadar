@@ -15,6 +15,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Darnassus"), Vendor = RRS("Ulthir"), Team = "Alliance" },
             { Region = RRS("Undercity"), Vendor = RRS("Algernon"), Team = "Horde" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Thessalia Dawnspark"), Team = "Alliance" },
          },
       },
       {
@@ -36,6 +37,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Westfall"), Vendor = RRS("Defias Profiteer"), Team = "Alliance" },
             { Region = RRS("Loch Modan"), Vendor = RRS("Xandar Goodbeard"), Team = "Alliance" },
             { Region = RRS("Orgrimmar"), Vendor = RRS("Hagrus"), Team = "Horde" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Orman Granitemantle"), Team = "Alliance" },
             { Region = RRS("The Barrens"), Vendor = RRS("Ranik"), Team = "Neutral" },
          },
       },
@@ -49,6 +51,8 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Darnassus"), Vendor = RRS("Ulthir"), Team = "Alliance" },
             { Region = RRS("Orgrimmar"), Vendor = RRS("Kor'geld"), Team = "Horde" },
             { Region = RRS("Desolace"), Vendor = RRS("Vendor-Tron 1000"), Team = "Neutral" },
+            { Region = RRS("Darkshore"), Vendor = RRS("Rug"), Team = "Neutral" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Thessalia Dawnspark"), Team = "Alliance" },
          },
       },
       {
@@ -60,6 +64,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Darnassus"), Vendor = RRS("Ulthir"), Team = "Alliance" },
             { Region = RRS("Orgrimmar"), Vendor = RRS("Hagrus"), Team = "Horde" },
             { Region = RRS("Desolace"), Vendor = RRS("Vendor-Tron 1000"), Team = "Neutral" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Thessalia Dawnspark"), Team = "Alliance" },
          },
       },
       {
@@ -162,6 +167,7 @@ RecipeRadar_RecipeData = {
          Cost = 2500,
          Locations = {
             { Region = RRS("Alterac Mountains"), Vendor = RRS("Bro'kin"), Team = "Neutral" },
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Hazel Luppel"), Team = "Alliance" },
          },
       },
       {
@@ -216,6 +222,15 @@ RecipeRadar_RecipeData = {
          Cost = 30000,
          Locations = {
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Magnus Frostwake"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 13500,
+         Type = RRS("Alchemy"),
+         Skill = 290,
+         Cost = 24000,
+         Locations = {
+            { Region = RRS("Undercity"), Vendor = RRS("Algernon"), Team = "Horde" },
          },
       },
       {
@@ -313,6 +328,50 @@ RecipeRadar_RecipeData = {
          Level = 5,
          Locations = {
             { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 55045,
+         Type = RRS("Alchemy"),
+         Skill = 300,
+         Cost = 30000,
+         Faction = RRS("Shen'dralar"),
+         Level = 5,
+         Locations = {
+            { Region = RRS("Dire Maul"), Vendor = RRS("Shen'dralar Provisioner"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 55047,
+         Type = RRS("Alchemy"),
+         Skill = 300,
+         Cost = 30000,
+         Faction = RRS("Shen'dralar"),
+         Level = 6,
+         Locations = {
+            { Region = RRS("Dire Maul"), Vendor = RRS("Shen'dralar Provisioner"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 91796,
+         Type = RRS("Alchemy"),
+         Skill = 300,
+         Cost = 120000,
+         Faction = RRS("Timbermaw Hold"),
+         Level = 5,
+         Locations = {
+            { Region = RRS("Felwood"), Vendor = RRS("Meilosh"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 91797,
+         Type = RRS("Alchemy"),
+         Skill = 300,
+         Cost = 120000,
+         Faction = RRS("Hydraxian Waterlords"),
+         Level = 6,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Hydrolon"), Team = "Neutral" },
          },
       },
    },

@@ -272,6 +272,16 @@ RecipeRadar_RegionData = {
             { ID = 13287, Type = RRS("Leatherworking"), Skill = 165, Cost = 2500 },
          },
       },
+      {
+         Name = RRS("Hazel Luppel"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.209, y = 0.637 },
+         },
+         Recipes = {
+            { ID = 14634, Type = RRS("Alchemy"), Skill = 200, Cost = 2500 },
+         },
+      },
    },
 },
 
@@ -1323,6 +1333,16 @@ RecipeRadar_RegionData = {
             { ID = 5772, Type = RRS("Tailoring"), Skill = 115, Cost = 500 },
          },
       },
+      {
+         Name = RRS("Rug"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.682, y = 0.191 },
+         },
+         Recipes = {
+            { ID = 5642, Type = RRS("Alchemy"), Skill = 150, Cost = 1800 },
+         },
+      },
    },
 },
 
@@ -1717,6 +1737,7 @@ RecipeRadar_RegionData = {
             { ID = 19215, Type = RRS("Tailoring"), Skill = 290, Cost = 22000, Faction = RRS("Timbermaw Hold"), Level = 6 },
             { ID = 19218, Type = RRS("Tailoring"), Skill = 300, Cost = 40000, Faction = RRS("Timbermaw Hold"), Level = 7 },
             { ID = 22392, Type = RRS("Enchanting"), Skill = 290, Cost = 25000, Faction = RRS("Timbermaw Hold"), Level = 5 },
+            { ID = 91796, Type = RRS("Alchemy"), Skill = 300, Cost = 120000, Faction = RRS("Timbermaw Hold"), Level = 5 },
          },
       },
    },
@@ -1878,6 +1899,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 9301, Type = RRS("Alchemy"), Skill = 250, Cost = 10000 },
             { ID = 13477, Type = RRS("Alchemy"), Skill = 260, Cost = 12000 },
+            { ID = 13500, Type = RRS("Alchemy"), Skill = 290, Cost = 24000 },
          },
       },
       {
@@ -2391,6 +2413,16 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 21099, Type = RRS("Cooking"), Skill = 80, Cost = 500 },
             { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
+         },
+      },
+      {
+         Name = RRS("Orman Granitemantle"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.338, y = 0.103 },
+         },
+         Recipes = {
+            { ID = 5640, Type = RRS("Alchemy"), Skill = 60, Cost = 100 },
          },
       },
    },
@@ -3009,6 +3041,8 @@ RecipeRadar_RegionData = {
          Team = "Neutral",
          Recipes = {
             { ID = 18487, Type = RRS("Tailoring"), Skill = 300, Cost = 40000 },
+            { ID = 55045, Type = RRS("Alchemy"), Skill = 300, Cost = 30000 },
+            { ID = 55047, Type = RRS("Alchemy"), Skill = 300, Cost = 30000 },
          },
       },
    },
@@ -3043,6 +3077,48 @@ RecipeRadar_RegionData = {
          Name = RRS("Master Craftsman Omarion"),
          Team = "Neutral",
          Recipes = {
+         },
+      },
+   },
+},
+
+[RRS("Azshara")] = {
+   IsCity = false,
+   Continent = 1,
+   MapFile = "Azshara",
+   MapScale = 0.27,
+   MapOffset = { x = 0.57, y = 0.33 },
+   Vendors = {
+      {
+         Name = RRS("Hydrolon"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.791, y = 0.738 },
+         },
+         Recipes = {
+            { ID = 91797, Type = RRS("Alchemy"), Skill = 300, Cost = 120000 },
+         },
+      },
+   },
+},
+
+[RRS("Alah'Thalas")] = {
+   IsCity = false,
+   Continent = 2,
+   MapFile = "Alah-Thalas",
+   MapScale = 0.27,
+   MapOffset = { x = 0.50, y = 0.11 },
+   Vendors = {
+      {
+         Name = RRS("Thessalia Dawnspark"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.387, y = 0.646 },
+         },
+         Recipes = {
+            { ID = 5642, Type = RRS("Alchemy"), Skill = 150, Cost = 1800 },
+            { ID = 6053, Type = RRS("Alchemy"), Skill = 300, Cost = 120000 },
+            { ID = 13477, Type = RRS("Alchemy"), Skill = 260, Cost = 120000 },
          },
       },
    },
