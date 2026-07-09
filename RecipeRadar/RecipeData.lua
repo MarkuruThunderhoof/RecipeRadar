@@ -86,6 +86,8 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Nandar Branson"), Team = "Alliance" },
             { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Jeeda"), Team = "Horde" },
+            { Region = RRS("Northwind"), Vendor = RRS("Fidel Prescott"), Team = "Alliance" },
+            { Region = RRS("Balor"), Vendor = RRS("Nijima"), Team = "Horde" },
          },
       },
       {

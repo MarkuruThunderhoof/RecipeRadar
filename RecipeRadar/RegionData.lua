@@ -3086,8 +3086,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Azshara",
-   MapScale = 0.27,
-   MapOffset = { x = 0.57, y = 0.33 },
+   MapScale = 0.12,
+   MapOffset = { x = 0.57, y = 0.32 },
    Vendors = {
       {
          Name = RRS("Hydrolon"),
@@ -3106,8 +3106,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Alah-Thalas",
-   MapScale = 0.27,
-   MapOffset = { x = 0.50, y = 0.11 },
+   MapScale = 0.017,
+   MapOffset = { x = 0.53, y = 0.13 },
    Vendors = {
       {
          Name = RRS("Thessalia Dawnspark"),
@@ -3124,6 +3124,45 @@ RecipeRadar_RegionData = {
    },
 },
 
+[RRS("Northwind")] = {
+   IsCity = false,
+   Continent = 2,
+   MapFile = "Northwind",
+   MapScale = 0.068,
+   MapOffset = { x = 0.405, y = 0.605 },
+   Vendors = {
+      {
+         Name = RRS("Fidel Prescott"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.341, y = 0.592 },
+         },
+         Recipes = {
+            { ID = 6055, Type = RRS("Alchemy"), Skill = 165, Cost = 1500 },
+         },
+      },
+   },
+},
+
+[RRS("Balor")] = {
+   IsCity = false,
+   Continent = 2,
+   MapFile = "Balor",
+   MapScale = 0.064,
+   MapOffset = { x = 0.325, y = 0.65 },
+   Vendors = {
+      {
+         Name = RRS("Nijima"),
+         Team = "Horde",
+         Coordinates = {
+            { x = 0.719, y = 0.496 },
+         },
+         Recipes = {
+            { ID = 6055, Type = RRS("Alchemy"), Skill = 165, Cost = 1500 },
+         },
+      },
+   },
+},
 }
 
 RecipeRadar_MaxVendorsByLocation = 20
