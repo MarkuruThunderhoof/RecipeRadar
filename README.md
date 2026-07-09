@@ -16,21 +16,20 @@ minimap to open Recipe Radar or use the slash command, '/rrdr'.
 ## OctoWoW Merge Roadmap
 
 - [ ] Populate missing recipes
-  - [ ] Alchemy
+  - [x] Alchemy
   - [ ] Blacksmithing
   - [ ] Cooking
   - [ ] Enchanting
   - [ ] Engineering
   - [ ] First Aid
   - [ ] Leatherworking
-  - [ ] Mining
-  - [ ] Poisons
   - [ ] Tailoring
   - [ ] Disguise
   - [ ] Jewelcrafting
 - [ ] Replace all changed zone textures
 - [ ] Update NPC coordinates
 - [ ] Recalibrate zone-to-minimap conversion coefficients
+- [ ] Update localization
 
 
 ## Installation
