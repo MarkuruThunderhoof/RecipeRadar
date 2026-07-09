@@ -421,6 +421,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Arathi Highlands"), Vendor = RRS("Jannos Ironwill"), Team = "Alliance" },
             { Region = RRS("Desolace"), Vendor = RRS("Muuran"), Team = "Horde" },
             { Region = RRS("Badlands"), Vendor = RRS("Jazzrik"), Team = "Neutral" },
+            { Region = RRS("Grim Reaches"), Vendor = RRS("Ragdan Hammerhearth"), Team = "Alliance" },
          },
       },
       {

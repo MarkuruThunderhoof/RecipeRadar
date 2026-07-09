@@ -3163,6 +3163,27 @@ RecipeRadar_RegionData = {
       },
    },
 },
+
+[RRS("Grim Reaches")] = {
+   IsCity = false,
+   Continent = 2,
+   MapFile = "Grim-Reaches",
+   MapScale = 0.13,
+   MapOffset = { x = 0.53, y = 0.45 },
+   Vendors = {
+      {
+         Name = RRS("Ragdan Hammerhearth"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.557, y = 0.701 },
+         },
+         Recipes = {
+            { ID = 10858, Type = RRS("Blacksmithing"), Skill = 155, Cost = 3000 },
+         },
+      },
+   },
+},
+
 }
 
 RecipeRadar_MaxVendorsByLocation = 20
