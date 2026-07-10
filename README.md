@@ -34,9 +34,9 @@ minimap to open Recipe Radar or use the slash command, '/rrdr'.
 
 ## Installation
 
-Just copy "RecipeRadar" folder to your addon's directory.
+Add https://github.com/MarkuruThunderhoof/RecipeRadar.git as custom git addon or just copy "RecipeRadar" folder to your addon's directory.
 
 ## Credits
 
-originaly made by Jay Miller [jnmiller@cryptofreak.org]
+Originaly made by Jay Miller [jnmiller@cryptofreak.org]
 http://www.cryptofreak.org/projects/reciperadar/
