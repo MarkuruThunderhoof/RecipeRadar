@@ -410,6 +410,9 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("The Hinterlands"), Vendor = RRS("Harggan"), Team = "Alliance" },
             { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Gharash"), Team = "Horde" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Daron Truthkeeper"), Team = "Neutral" },
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Janet Hollowworth"), Team = "Alliance" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Rell"), Team = "Horde" },
          },
       },
       {
@@ -440,6 +443,9 @@ RecipeRadar_RecipeData = {
          Cost = 4400,
          Locations = {
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Zarena Cromwind"), Team = "Neutral" },
+         },
+         Locations = {
+            { Region = RRS("Grim Reaches"), Vendor = RRS("Targen Bladecall"), Team = "Horde" },
          },
       },
       {
@@ -813,6 +819,259 @@ RecipeRadar_RecipeData = {
          Level = 5,
          Locations = {
             { Region = RRS("Silithus"), Vendor = RRS("Vargus"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 22219,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 50000,
+         Faction = RRS("Cenarion Circle"),
+         Level = 7,
+         Locations = {
+            { Region = RRS("Ruins of Ahn'Qiraj"), Vendor = RRS("Lieutenant General Andorov"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 22221,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 80000,
+         Faction = RRS("Cenarion Circle"),
+         Level = 8,
+         Locations = {
+            { Region = RRS("Ruins of Ahn'Qiraj"), Vendor = RRS("Lieutenant General Andorov"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 5577,
+         Type = RRS("Blacksmithing"),
+         Skill = 100,
+         Cost = 1200,
+         Locations = {
+            { Region = RRS("Stormwind City"), Vendor = RRS("Kaita Deepforge"), Team = "Alliance" },
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Sumi"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 6734,
+         Type = RRS("Blacksmithing"),
+         Skill = 70,
+         Cost = 250,
+         Locations = {
+            { Region = RRS("Ironforge"), Vendor = RRS("Thurgrum Deepforge"), Team = "Alliance" },
+         },
+      },
+      {
+         ID = 6736,
+         Type = RRS("Blacksmithing"),
+         Skill = 140,
+         Cost = 1800,
+         Locations = {
+            { Region = RRS("Ironforge"), Vendor = RRS("Thurgrum Deepforge"), Team = "Alliance" },
+         },
+      },
+      {
+         ID = 7976,
+         Type = RRS("Blacksmithing"),
+         Skill = 215,
+         Cost = 8000,
+         Locations = {
+            { Region = RRS("Gilneas"), Vendor = RRS("Larry Bolder"), Team = "Alliance" },
+         },
+      },
+      {
+         ID = 7977,
+         Type = RRS("Blacksmithing"),
+         Skill = 220,
+         Cost = 8000,
+         Locations = {
+            { Region = RRS("Stormwind City"), Vendor = RRS("Kaita Deepforge"), Team = "Alliance" },
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Sumi"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 12816,
+         Type = RRS("Blacksmithing"),
+         Skill = 260,
+         Cost = 12000,
+         Locations = {
+            { Region = RRS("Stormwind City"), Vendor = RRS("Kaita Deepforge"), Team = "Alliance" },
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Sumi"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 12817,
+         Type = RRS("Blacksmithing"),
+         Skill = 270,
+         Cost = 16000,
+         Locations = {
+            { Region = RRS("Felwood"), Vendor = RRS("Altsoba Ragetotem"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 12818,
+         Type = RRS("Blacksmithing"),
+         Skill = 270,
+         Cost = 12500,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Krinkle Goodsteel"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 12826,
+         Type = RRS("Blacksmithing"),
+         Skill = 285,
+         Cost = 20000,
+         Locations = {
+            { Region = RRS("Stormwind City"), Vendor = RRS("Kaita Deepforge"), Team = "Alliance" },
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Sumi"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 12831,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 40000,
+         Locations = {
+            { Region = RRS("Mulgore"), Vendor = RRS("Taur Stonehoof"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 12832,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 40000,
+         Locations = {
+            { Region = RRS("Durotar"), Vendor = RRS("Ula'elek"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 55057,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 100000,
+         Faction = RRS("Shen'dralar"),
+         Level = 8,
+         Locations = {
+            { Region = RRS("Dire Maul"), Vendor = RRS("Shen'dralar Provisioner"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 83507,
+         Type = RRS("Blacksmithing"),
+         Skill = 225,
+         Cost = 10000,
+         Locations = {
+            { Region = RRS("Grim Reaches"), Vendor = RRS("Gormand Belchbrew"), Team = "Alliance" },
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Hammon Karwn"), Team = "Alliance" },
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Keena"), Team = "Horde" },
+            { Region = RRS("Grim Reaches"), Vendor = RRS("Tal'garr"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 83548,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 40000,
+         Faction = RRS("Cenarion Circle"),
+         Level = 8,
+         Locations = {
+            { Region = RRS("Silithus"), Vendor = RRS("Aendel Windspear"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 62001,
+         Type = RRS("Blacksmithing"),
+         Skill = 290,
+         Cost = 22000,
+         Faction = RRS("Timbermaw Hold"),
+         Level = 6,
+         Locations = {
+            { Region = RRS("Felwood"), Vendor = RRS("Meilosh"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 62002,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 40000,
+         Faction = RRS("Timbermaw Hold"),
+         Level = 7,
+         Locations = {
+            { Region = RRS("Felwood"), Vendor = RRS("Meilosh"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 62004,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 120000,
+         Faction = RRS("Thorium Brotherhood"),
+         Level = 8,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 60964,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 40000,
+         Faction = RRS("Gelkis Clan Centaur"),
+         Level = 8,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("Earthcaller Jalyssa"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 61786,
+         Type = RRS("Blacksmithing"),
+         Skill = 25,
+         Cost = 300,
+         Locations = {
+            { Region = RRS("Stormwind City"), Vendor = RRS("Gordon Hardfoot"), Team = "Alliance" },
+            { Region = RRS("Undercity"), Vendor = RRS("Tanovan Darkwell"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 61787,
+         Type = RRS("Blacksmithing"),
+         Skill = 90,
+         Cost = 500,
+         Locations = {
+            { Region = RRS("Stormwind City"), Vendor = RRS("Gordon Hardfoot"), Team = "Alliance" },
+            { Region = RRS("Undercity"), Vendor = RRS("Tanovan Darkwell"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 61788,
+         Type = RRS("Blacksmithing"),
+         Skill = 140,
+         Cost = 1200,
+         Locations = {
+            { Region = RRS("Stormwind City"), Vendor = RRS("Gordon Hardfoot"), Team = "Alliance" },
+            { Region = RRS("Undercity"), Vendor = RRS("Tanovan Darkwell"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 61789,
+         Type = RRS("Blacksmithing"),
+         Skill = 190,
+         Cost = 2000,
+         Locations = {
+            { Region = RRS("Stormwind City"), Vendor = RRS("Gordon Hardfoot"), Team = "Alliance" },
+            { Region = RRS("Undercity"), Vendor = RRS("Tanovan Darkwell"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 61790,
+         Type = RRS("Blacksmithing"),
+         Skill = 240,
+         Cost = 5000,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Krinkle Goodsteel"), Team = "Neutral" },
+            { Region = RRS("Searing Gorge"), Vendor = RRS("Master Smith Burninate"), Team = "Neutral" },
          },
       },
    },

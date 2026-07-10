@@ -17,7 +17,7 @@ minimap to open Recipe Radar or use the slash command, '/rrdr'.
 
 - [ ] Populate missing recipes
   - [x] Alchemy
-  - [ ] Blacksmithing
+  - [x] Blacksmithing
   - [ ] Cooking
   - [ ] Enchanting
   - [ ] Engineering
