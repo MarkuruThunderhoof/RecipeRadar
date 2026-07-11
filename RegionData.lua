@@ -3265,7 +3265,7 @@ RecipeRadar_RegionData = {
    Continent = 2,
    MapFile = "Balor",
    MapScale = 0.08806843134088,
-   MapOffset = { x = 0.32022817891275,, y = 0.64106432269917 },
+   MapOffset = { x = 0.32022817891275, y = 0.64106432269917 },
    Vendors = {
       {
          Name = RRS("Nijima"),
