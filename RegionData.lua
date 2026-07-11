@@ -1477,9 +1477,9 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 4355, Type = RRS("Tailoring"), Skill = 200, Cost = 1500 },
-            { ID = 16084, Type = RRS("First Aid"), Skill = 125, Cost = 10000 },
-            { ID = 16112, Type = RRS("First Aid"), Skill = 180, Cost = 2200 },
-            { ID = 16113, Type = RRS("First Aid"), Skill = 210, Cost = 5000 },
+            --{ ID = 16084, Type = RRS("First Aid"), Skill = 125, Cost = 10000 },
+            --{ ID = 16112, Type = RRS("First Aid"), Skill = 180, Cost = 2200 },
+            --{ ID = 16113, Type = RRS("First Aid"), Skill = 210, Cost = 5000 },
          },
       },
       {

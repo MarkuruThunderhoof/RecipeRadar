@@ -3669,7 +3669,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Arathi Highlands"), Vendor = RRS("Deneb Walker"), Team = "Alliance" },
             { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Balai Lok'Wein"), Team = "Horde" },
-            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Ghok'kah"), Team = "Horde" },
+            --{ Region = RRS("Dustwallow Marsh"), Vendor = RRS("Ghok'kah"), Team = "Horde" },
          },
       },
       {
@@ -3680,7 +3680,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Arathi Highlands"), Vendor = RRS("Deneb Walker"), Team = "Alliance" },
             { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Balai Lok'Wein"), Team = "Horde" },
-            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Ghok'kah"), Team = "Horde" },
+            --{ Region = RRS("Dustwallow Marsh"), Vendor = RRS("Ghok'kah"), Team = "Horde" },
          },
       },
       {
@@ -3691,7 +3691,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Arathi Highlands"), Vendor = RRS("Deneb Walker"), Team = "Alliance" },
             { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Balai Lok'Wein"), Team = "Horde" },
-            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Ghok'kah"), Team = "Horde" },
+            --{ Region = RRS("Dustwallow Marsh"), Vendor = RRS("Ghok'kah"), Team = "Horde" },
          },
       },
       {
