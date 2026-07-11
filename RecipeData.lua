@@ -2906,6 +2906,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Feralas"), Vendor = RRS("Vivianna"), Team = "Alliance" },
             { Region = RRS("Feralas"), Vendor = RRS("Sheendra Tallgrass"), Team = "Horde" },
+            { Region = RRS("Felwood"), Vendor = RRS("Malora Valeheart"), Team = "Alliance" },
          },
       },
       {
@@ -2961,6 +2962,10 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Martine Tramblay"), Team = "Horde" },
             { Region = RRS("Thunder Bluff"), Vendor = RRS("Sewa Mistrunner"), Team = "Horde" },
             { Region = RRS("Undercity"), Vendor = RRS("Lizbeth Cromwell"), Team = "Horde" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Elenia Everdawn"), Team = "Alliance" },
+            { Region = RRS("Blackstone Island"), Vendor = RRS("Gox Borelight"), Team = "Neutral" },
+            { Region = RRS("Northwind"), Vendor = RRS("Griselda Tilley"), Team = "Alliance" },
+            { Region = RRS("Gilneas"), Vendor = RRS("Tanner Fralsh"), Team = "Alliance" },
          },
       },
       {
@@ -2976,6 +2981,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Thunder Bluff"), Vendor = RRS("Sewa Mistrunner"), Team = "Horde" },
             { Region = RRS("Undercity"), Vendor = RRS("Ronald Burch"), Team = "Horde" },
             { Region = RRS("The Barrens"), Vendor = RRS("Kilxx"), Team = "Neutral" },
+            { Region = RRS("Northwind"), Vendor = RRS("Griselda Tilley"), Team = "Alliance" },
          },
       },
       {
@@ -3024,6 +3030,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
             { Region = RRS("Arathi Highlands"), Vendor = RRS("Keena"), Team = "Horde" },
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Nerrist"), Team = "Horde" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Kodiak Killbrew"), Team = "Neutral" },
          },
       },
       {
@@ -3044,6 +3051,7 @@ RecipeRadar_RecipeData = {
          Cost = 400,
          Locations = {
             { Region = RRS("Darkshore"), Vendor = RRS("Laird"), Team = "Alliance" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Amathion Seawhisper"), Team = "Alliance" },
          },
       },
       {
@@ -3092,6 +3100,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("The Barrens"), Vendor = RRS("Zargh"), Team = "Horde" },
             { Region = RRS("Desolace"), Vendor = RRS("Vendor-Tron 1000"), Team = "Neutral" },
+            { Region = RRS("Durotar"), Vendor = RRS("Nantai Truthwind"), Team = "Horde" },
          },
       },
       {
@@ -3103,6 +3112,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Feralas"), Vendor = RRS("Vivianna"), Team = "Alliance" },
             { Region = RRS("Feralas"), Vendor = RRS("Sheendra Tallgrass"), Team = "Horde" },
             { Region = RRS("Desolace"), Vendor = RRS("Super-Seller 680"), Team = "Neutral" },
+            { Region = RRS("Felwood"), Vendor = RRS("Malora Valeheart"), Team = "Alliance" },
          },
       },
       {
@@ -3114,6 +3124,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Corporal Bluth"), Team = "Alliance" },
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Nerrist"), Team = "Horde" },
             { Region = RRS("Desolace"), Vendor = RRS("Vendor-Tron 1000"), Team = "Neutral" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Kodiak Killbrew"), Team = "Neutral" },
          },
       },
       {
@@ -3134,6 +3145,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Feralas"), Vendor = RRS("Vivianna"), Team = "Alliance" },
             { Region = RRS("Feralas"), Vendor = RRS("Sheendra Tallgrass"), Team = "Horde" },
+            { Region = RRS("Felwood"), Vendor = RRS("Malora Valeheart"), Team = "Alliance" },
          },
       },
       {
@@ -3143,6 +3155,7 @@ RecipeRadar_RecipeData = {
          Cost = 400,
          Locations = {
             { Region = RRS("Loch Modan"), Vendor = RRS("Khara Deepwater"), Team = "Alliance" },
+            { Region = RRS("Gilneas"), Vendor = RRS("Tanner Fralsh"), Team = "Alliance" },
          },
       },
       {
@@ -3159,6 +3172,8 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Killian Sanatha"), Team = "Horde" },
             { Region = RRS("Thunder Bluff"), Vendor = RRS("Naal Mistrunner"), Team = "Horde" },
             { Region = RRS("Undercity"), Vendor = RRS("Lizbeth Cromwell"), Team = "Horde" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Elenia Everdawn"), Team = "Alliance" },
+            { Region = RRS("Gilneas"), Vendor = RRS("Tanner Fralsh"), Team = "Alliance" },
          },
       },
       {
@@ -3169,6 +3184,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Feralas"), Vendor = RRS("Vivianna"), Team = "Alliance" },
             { Region = RRS("Feralas"), Vendor = RRS("Sheendra Tallgrass"), Team = "Horde" },
+            { Region = RRS("Felwood"), Vendor = RRS("Malora Valeheart"), Team = "Alliance" },
          },
       },
       {
@@ -3206,6 +3222,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Helenia Olden"), Team = "Alliance" },
             { Region = RRS("Desolace"), Vendor = RRS("Janet Hommers"), Team = "Alliance" },
             { Region = RRS("Desolace"), Vendor = RRS("Super-Seller 680"), Team = "Neutral" },
+            { Region = RRS("Dun Morogh"), Vendor = RRS("Tindlee Clockbadge"), Team = "Alliance" },
          },
       },
       {
@@ -3224,6 +3241,8 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Durotar"), Vendor = RRS("Zansoa"), Team = "Horde" },
             { Region = RRS("Undercity"), Vendor = RRS("Ronald Burch"), Team = "Horde" },
             { Region = RRS("The Barrens"), Vendor = RRS("Kilxx"), Team = "Neutral" },
+            { Region = RRS("Northwind"), Vendor = RRS("Griselda Tilley"), Team = "Alliance" },
+            { Region = RRS("Darkshore"), Vendor = RRS("Zazu"), Team = "Neutral" },
          },
       },
       {
@@ -3248,6 +3267,9 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Nerrist"), Team = "Horde" },
             { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Ogg'marr"), Team = "Horde" },
             { Region = RRS("Desolace"), Vendor = RRS("Vendor-Tron 1000"), Team = "Neutral" },
+            { Region = RRS("Grim Reaches"), Vendor = RRS("Gormand Belchbrew"), Team = "Alliance" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Kodiak Killbrew"), Team = "Neutral" },
+            { Region = RRS("Grim Reaches"), Vendor = RRS("Tal'garr"), Team = "Horde" },
          },
       },
       {
@@ -3287,6 +3309,8 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Ironforge"), Vendor = RRS("Tansy Puddlefizz"), Team = "Alliance" },
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Martine Tramblay"), Team = "Horde" },
             { Region = RRS("Durotar"), Vendor = RRS("Zansoa"), Team = "Horde" },
+            { Region = RRS("Blackstone Island"), Vendor = RRS("Gox Borelight"), Team = "Neutral" },
+            { Region = RRS("Darkshore"), Vendor = RRS("Zazu"), Team = "Neutral" },
          },
       },
       {
@@ -3297,6 +3321,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Loch Modan"), Vendor = RRS("Drac Roughcut"), Team = "Alliance" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Andrew Hilbert"), Team = "Horde" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Daxx Rightblast"), Team = "Neutral" },
          },
       },
       {
@@ -3327,6 +3352,12 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("The Hinterlands"), Vendor = RRS("Truk Wildbeard"), Team = "Alliance" },
             { Region = RRS("Tanaris"), Vendor = RRS("Dirge Quikcleave"), Team = "Neutral" },
+
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Eliana Firestorm"), Team = "Neutral" },
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Fazzle 'The Slick'"), Team = "Neutral" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Innkeeper Fizzgrimble"), Team = "Alliance" },
+            --{ Region = RRS(""), Vendor = RRS("Innkeeper Gazz"), Team = "Neutral" },
+            { Region = RRS("Dun Morogh"), Vendor = RRS("Torkspark Boomwrench"), Team = "Alliance" },
          },
       },
       {
@@ -3459,6 +3490,14 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Felwood"), Vendor = RRS("Bale"), Team = "Horde" },
             { Region = RRS("Winterspring"), Vendor = RRS("Himmik"), Team = "Neutral" },
             { Region = RRS("Winterspring"), Vendor = RRS("Qia"), Team = "Neutral" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Celia Daywing"), Team = "Alliance" },
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Golsh"), Team = "Horde" },
+            { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Grin Harold"), Team = "Neutral" },
+            { Region = RRS("Grim Reaches"), Vendor = RRS("Hagrekk"), Team = "Horde" },
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Mathilda Beckett"), Team = "Alliance" },
+            --{ Region = RRS(""), Vendor = RRS("Pipoca the Searunner"), Team = "Neutral" },
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Skeletal Blacksmith"), Team = "Neutral" },
+
          },
       },
       {
@@ -3543,6 +3582,10 @@ RecipeRadar_RecipeData = {
             { Region = RRS("The Hinterlands"), Vendor = RRS("Otho Moji'ko"), Team = "Horde" },
             { Region = RRS("Thunder Bluff"), Vendor = RRS("Naal Mistrunner"), Team = "Horde" },
             { Region = RRS("Undercity"), Vendor = RRS("Ronald Burch"), Team = "Horde" },
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Howard Gray"), Team = "Alliance" },
+            { Region = RRS("Northwind"), Vendor = RRS("Jacqueline Marlowe"), Team = "Alliance" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Liris Fairlocks"), Team = "Alliance" },
+            { Region = RRS("Blackstone Island"), Vendor = RRS("Rankle"), Team = "Neutral" },
          },
       },
       {
@@ -3565,6 +3608,10 @@ RecipeRadar_RecipeData = {
             { Region = RRS("The Hinterlands"), Vendor = RRS("Otho Moji'ko"), Team = "Horde" },
             { Region = RRS("Thunder Bluff"), Vendor = RRS("Naal Mistrunner"), Team = "Horde" },
             { Region = RRS("Undercity"), Vendor = RRS("Ronald Burch"), Team = "Horde" },
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Howard Gray"), Team = "Alliance" },
+            { Region = RRS("Northwind"), Vendor = RRS("Jacqueline Marlowe"), Team = "Alliance" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Liris Fairlocks"), Team = "Alliance" },
+            { Region = RRS("Blackstone Island"), Vendor = RRS("Rankle"), Team = "Neutral" },
          },
       },
       {
@@ -3575,6 +3622,24 @@ RecipeRadar_RecipeData = {
          Notes = RRS("Rogue Only"),
          Locations = {
             { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Smudge Thunderwood"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 19670,
+         Type = RRS("Cooking"),
+         Skill = 175,
+         Cost = 2000,
+         Locations = {
+            { Region = RRS("Northwind"), Vendor = RRS("Jacqueline Marlowe"), Team = "Alliance" },
+         },
+      },
+      {
+         ID = 61676,
+         Type = RRS("Cooking"),
+         Skill = 200,
+         Cost = 2500,
+         Locations = {
+            { Region = RRS("Gilneas"), Vendor = RRS("'Stickypaws'"), Team = "Neutral" },
          },
       },
    },

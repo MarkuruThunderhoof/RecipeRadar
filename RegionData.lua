@@ -301,6 +301,16 @@ RecipeRadar_RegionData = {
             { ID = 14634, Type = RRS("Alchemy"), Skill = 200, Cost = 2500 },
          },
       },
+      {
+         Name = RRS("Mathilda Beckett"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.214, y = 0.634 },
+         },
+         Recipes = {
+            { ID = 16110, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
+         },
+      },
    },
 },
 
@@ -812,6 +822,26 @@ RecipeRadar_RegionData = {
             { ID = 12163, Type = RRS("Blacksmithing"), Skill = 180, Cost = 4400 },
          },
       },
+      {
+         Name = RRS("Eliana Firestorm"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.438, y = 0.159 },
+         },
+         Recipes = {
+            { ID = 18046, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
+         },
+      },
+      {
+         Name = RRS("Fazzle 'The Slick'"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.433, y = 0.796 },
+         },
+         Recipes = {
+            { ID = 18046, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
+         },
+      },
    },
 },
 
@@ -1307,6 +1337,26 @@ RecipeRadar_RegionData = {
             { ID = 6325, Type = RRS("Cooking"), Skill = 1, Cost = 40 },
          },
       },
+      {
+         Name = RRS("Tindlee Clockbadge"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.253, y = 0.303 },
+         },
+         Recipes = {
+            { ID = 12233, Type = RRS("Cooking"), Skill = 175, Cost = 3000 },
+         },
+      },
+      {
+         Name = RRS("Torkspark Boomwrench"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.242, y = 0.314 },
+         },
+         Recipes = {
+            { ID = 18046, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
+         },
+      },
    },
 },
 
@@ -1371,6 +1421,17 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5642, Type = RRS("Alchemy"), Skill = 150, Cost = 1800 },
+         },
+      },
+      {
+         Name = RRS("Zazu"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.682, y = 0.188 },
+         },
+         Recipes = {
+            { ID = 6326, Type = RRS("Cooking"), Skill = 1, Cost = 40 },
+            { ID = 6368, Type = RRS("Cooking"), Skill = 50, Cost = 400 },
          },
       },
    },
@@ -1602,6 +1663,16 @@ RecipeRadar_RegionData = {
             { ID = 12703, Type = RRS("Blacksmithing"), Skill = 295, Cost = 40000 },
          },
       },
+      {
+         Name = RRS("Skeletal Blacksmith"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.29, y = 0.45 },
+         },
+         Recipes = {
+            { ID = 16110, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
+         },
+      },
    },
 },
 
@@ -1791,6 +1862,19 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 12817, Type = RRS("Cooking"), Skill = 270, Cost = 16000 },
+         },
+      },
+      {
+         Name = RRS("Malora Valeheart"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.605, y = 0.236 },
+         },
+         Recipes = {
+            { ID = 12229, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
+            { ID = 13947, Type = RRS("Cooking"), Skill = 275, Cost = 20000 },
+            { ID = 13948, Type = RRS("Cooking"), Skill = 275, Cost = 20000 },
+            { ID = 13949, Type = RRS("Cooking"), Skill = 275, Cost = 20000 },
          },
       },
    },
@@ -2172,6 +2256,16 @@ RecipeRadar_RegionData = {
             { ID = 15726, Type = RRS("Leatherworking"), Skill = 260, Cost = 12000, Specialty = RRS("Dragonscale Leatherworking") },
          },
       },
+      {
+         Name = RRS("Grin Harold"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.489, y = 0.478 },
+         },
+         Recipes = {
+            { ID = 16110, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
+         },
+      },
    },
 },
 
@@ -2344,6 +2438,16 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 12832, Type = RRS("Blacksmithing"), Skill = 300, Cost = 40000 },
+         },
+      },
+      {
+         Name = RRS("Nantai Truthwind"),
+         Team = "Horde",
+         Coordinates = {
+            { x = 0.448, y = 0.144 },
+         },
+         Recipes = {
+            { ID = 3735, Type = RRS("Cooking"), Skill = 125, Cost = 1800 },
          },
       },
    },
@@ -2523,6 +2627,16 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 7995, Type = RRS("Blacksmithing"), Skill = 215, Cost = 6000 },
+         },
+      },
+      {
+         Name = RRS("Daxx Rightblast"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.497, y = 0.634 },
+         },
+         Recipes = {
+            { ID = 6892, Type = RRS("Cooking"), Skill = 40, Cost = 250 },
          },
       },
    },
@@ -2862,6 +2976,28 @@ RecipeRadar_RegionData = {
             { ID = 18650, Type = RRS("Engineering"), Skill = 200, Cost = 5000 },
          },
       },
+      {
+         Name = RRS("Kodiak Killbrew"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.315, y = 0.365 },
+         },
+         Recipes = {
+            { ID = 3682, Type = RRS("Cooking"), Skill = 130, Cost = 1600 },
+            { ID = 12228, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
+            { ID = 12231, Type = RRS("Cooking"), Skill = 175, Cost = 3000 },
+         },
+      },
+      {
+         Name = RRS("Innkeeper Fizzgrimble"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.525, y = 0.279 },
+         },
+         Recipes = {
+            { ID = 18046, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
+         },
+      },
    },
 },
 
@@ -3181,6 +3317,16 @@ RecipeRadar_RegionData = {
             { ID = 10602, Type = RRS("Engineering"), Skill = 210, Cost = 3000 },
          },
       },
+      {
+         Name = RRS("Golsh"),
+         Team = "Horde",
+         Coordinates = {
+            { x = 0.932, y = 0.230 },
+         },
+         Recipes = {
+            { ID = 16110, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
+         },
+      },
    },
 },
 
@@ -3237,6 +3383,48 @@ RecipeRadar_RegionData = {
             { ID = 13477, Type = RRS("Alchemy"), Skill = 260, Cost = 120000 },
          },
       },
+      {
+         Name = RRS("Amathion Seawhisper"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.405, y = 0.509 },
+         },
+         Recipes = {
+            { ID = 5485, Type = RRS("Cooking"), Skill = 50, Cost = 400 },
+         },
+      },
+      {
+         Name = RRS("Elenia Everdawn"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.405, y = 0.509 },
+         },
+         Recipes = {
+            { ID = 6325, Type = RRS("Cooking"), Skill = 1, Cost = 40 },
+            { ID = 6328, Type = RRS("Cooking"), Skill = 50, Cost = 400 },
+         },
+      },
+      {
+         Name = RRS("Celia Daywing"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.536, y = 0.512 },
+         },
+         Recipes = {
+            { ID = 16110, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
+         },
+      },
+      {
+         Name = RRS("Liris Fairlocks"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.362, y = 0.762 },
+         },
+         Recipes = {
+            { ID = 21099, Type = RRS("Cooking"), Skill = 80, Cost = 500 },
+            { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
+         },
+      },
    },
 },
 
@@ -3255,6 +3443,30 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 6055, Type = RRS("Alchemy"), Skill = 165, Cost = 1500 },
+         },
+      },
+      {
+         Name = RRS("Griselda Tilley"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.444, y = 0.528 },
+         },
+         Recipes = {
+            { ID = 6325, Type = RRS("Cooking"), Skill = 1, Cost = 40 },
+            { ID = 6330, Type = RRS("Cooking"), Skill = 100, Cost = 1200 },
+            { ID = 6368, Type = RRS("Cooking"), Skill = 50, Cost = 400 },
+         },
+      },
+      {
+         Name = RRS("Jacqueline Marlowe"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.327, y = 0.604 },
+         },
+         Recipes = {
+            { ID = 21099, Type = RRS("Cooking"), Skill = 80, Cost = 500 },
+            { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
+            { ID = 19670, Type = RRS("Cooking"), Skill = 175, Cost = 2000 },
          },
       },
    },
@@ -3315,6 +3527,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 83507, Type = RRS("Blacksmithing"), Skill = 225, Cost = 10000 },
+            { ID = 12228, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
          },
       },
       {
@@ -3325,6 +3538,17 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 83507, Type = RRS("Blacksmithing"), Skill = 225, Cost = 10000 },
+            { ID = 12228, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
+         },
+      },
+      {
+         Name = RRS("Hagrekk"),
+         Team = "Horde",
+         Coordinates = {
+            { x = 0.593, y = 0.294 },
+         },
+         Recipes = {
+            { ID = 16110, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
          },
       },
    },
@@ -3345,6 +3569,17 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 7995, Type = RRS("Blacksmithing"), Skill = 215, Cost = 6000 },
+         },
+      },
+      {
+         Name = RRS("Howard Gray"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.570, y = 0.311 },
+         },
+         Recipes = {
+            { ID = 21099, Type = RRS("Cooking"), Skill = 80, Cost = 500 },
+            { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
          },
       },
    },
@@ -3382,6 +3617,28 @@ RecipeRadar_RegionData = {
             { ID = 7976, Type = RRS("Blacksmithing"), Skill = 215, Cost = 8000 },
          },
       },
+      {
+         Name = RRS("Tanner Fralsh"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.641, y = 0.721 },
+         },
+         Recipes = {
+            { ID = 6325, Type = RRS("Cooking"), Skill = 1, Cost = 40 },
+            { ID = 6328, Type = RRS("Cooking"), Skill = 50, Cost = 400 },
+            { ID = 6329, Type = RRS("Cooking"), Skill = 50, Cost = 400 },
+         },
+      },
+      {
+         Name = RRS("'Stickypaws'"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.508, y = 0.395 },
+         },
+         Recipes = {
+            { ID = 61676, Type = RRS("Cooking"), Skill = 200, Cost = 2500 },
+         },
+      },
    },
 },
 
@@ -3404,6 +3661,39 @@ RecipeRadar_RegionData = {
       },
    },
 },
+
+[RRS("Blackstone Island")] = {
+   IsCity = false,
+   Continent = 1,
+   MapFile = "Blackstone-Island",
+   MapScale = 0.06752073749910,
+   MapOffset = { x = 0.63425868944744, y = 0.48916979012457 },
+   Vendors = {
+      {
+         Name = RRS("Gox Borelight"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.583, y = 0.244 },
+         },
+         Recipes = {
+            { ID = 6325, Type = RRS("Cooking"), Skill = 1, Cost = 40 },
+            { ID = 6326, Type = RRS("Cooking"), Skill = 1, Cost = 40 },
+         },
+      },
+      {
+         Name = RRS("Rankle"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.476, y = 0.692 },
+         },
+         Recipes = {
+            { ID = 21099, Type = RRS("Cooking"), Skill = 80, Cost = 500 },
+            { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
+         },
+      },
+   },
+},
+
 }
 
 RecipeRadar_MaxVendorsByLocation = 20
