@@ -3202,8 +3202,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Azshara",
-   MapScale = 0.12,
-   MapOffset = { x = 0.57, y = 0.32 },
+   MapScale = 13780935177579,
+   MapOffset = { x = 0.55282022883206, y = 0.30400560910822 },
    Vendors = {
       {
          Name = RRS("Hydrolon"),
@@ -3222,8 +3222,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Alah-Thalas",
-   MapScale = 0.017,
-   MapOffset = { x = 0.53, y = 0.13 },
+   MapScale = 0.04164784527252,
+   MapOffset = { x = 0.51616623338057, y = 0.10907417721376 },
    Vendors = {
       {
          Name = RRS("Thessalia Dawnspark"),
@@ -3244,8 +3244,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Northwind",
-   MapScale = 0.068,
-   MapOffset = { x = 0.405, y = 0.605 },
+   MapScale = 0.0919959992864,
+   MapOffset = { x = 0.39039883202794, y = 0.58779712613903 },
    Vendors = {
       {
          Name = RRS("Fidel Prescott"),
@@ -3264,8 +3264,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Balor",
-   MapScale = 0.064,
-   MapOffset = { x = 0.325, y = 0.65 },
+   MapScale = 0.08806843134088,
+   MapOffset = { x = 0.32022817891275,, y = 0.64106432269917 },
    Vendors = {
       {
          Name = RRS("Nijima"),
@@ -3284,8 +3284,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Grim-Reaches",
-   MapScale = 0.13,
-   MapOffset = { x = 0.53, y = 0.45 },
+   MapScale = 0.15288395588974,
+   MapOffset = { x = 0.51341054376430, y = 0.44193023507875 },
    Vendors = {
       {
          Name = RRS("Ragdan Hammerhearth"),
@@ -3334,8 +3334,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Deadwind-Pass",
-   MapScale = 0.06,
-   MapOffset = { x = 0.485, y = 0.745 },
+   MapScale = 0.07102279065087,
+   MapOffset = { x = 0.47822095603353, y = 0.73863576092825 },
    Vendors = {
       {
          Name = RRS("Janet Hollowworth"),
@@ -3369,8 +3369,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Gilneas",
-   MapScale = 0.08,
-   MapOffset = { x = 0.37, y = 0.351 },
+   MapScale = 0.10410540859596,
+   MapOffset = { x = 0.36213170658275, y = 0.33347822288231 },
    Vendors = {
       {
          Name = RRS("Larry Bolder"),
@@ -3389,8 +3389,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Searing-Gorge",
-   MapScale = 0.06338794005823,
-   MapOffset = { x = 0.46372051266487, y = 0.57812379382509 },
+   MapScale = 0.06338796238627,
+   MapOffset = { x = 0.46372063080540, y = 0.57812380324371 },
    Vendors = {
       {
          Name = RRS("Master Smith Burninate"),
