@@ -19,8 +19,8 @@ minimap to open Recipe Radar or use the slash command, '/rrdr'.
   - [x] Alchemy
   - [x] Blacksmithing
   - [x] Cooking
-  - [ ] Enchanting
-  - [ ] Engineering
+  - [x] Enchanting
+  - [x] Engineering
   - [x] First Aid
   - [ ] Leatherworking
   - [ ] Tailoring

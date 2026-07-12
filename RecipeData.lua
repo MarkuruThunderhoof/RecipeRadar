@@ -37,7 +37,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Westfall"), Vendor = RRS("Defias Profiteer"), Team = "Alliance" },
             { Region = RRS("Loch Modan"), Vendor = RRS("Xandar Goodbeard"), Team = "Alliance" },
             { Region = RRS("Orgrimmar"), Vendor = RRS("Hagrus"), Team = "Horde" },
-            { Region = RRS("The Barrens"), Vendor = RRS("Orman Granitemantle"), Team = "Alliance" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Orman Granitemantle"), Team = "Alliance" },
             { Region = RRS("The Barrens"), Vendor = RRS("Ranik"), Team = "Neutral" },
          },
       },
@@ -254,7 +254,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
          },
       },
       {
@@ -410,7 +410,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("The Hinterlands"), Vendor = RRS("Harggan"), Team = "Alliance" },
             { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Gharash"), Team = "Horde" },
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Daron Truthkeeper"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Daron Truthkeeper"), Team = "Neutral" },
             { Region = RRS("Deadwind Pass"), Vendor = RRS("Janet Hollowworth"), Team = "Alliance" },
             { Region = RRS("The Barrens"), Vendor = RRS("Rell"), Team = "Horde" },
          },
@@ -443,8 +443,6 @@ RecipeRadar_RecipeData = {
          Cost = 4400,
          Locations = {
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Zarena Cromwind"), Team = "Neutral" },
-         },
-         Locations = {
             { Region = RRS("Grim Reaches"), Vendor = RRS("Targen Bladecall"), Team = "Horde" },
          },
       },
@@ -684,7 +682,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
          },
       },
       {
@@ -697,7 +695,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
          },
       },
       {
@@ -934,7 +932,7 @@ RecipeRadar_RecipeData = {
          Skill = 300,
          Cost = 40000,
          Locations = {
-            { Region = RRS("Mulgore"), Vendor = RRS("Taur Stonehoof"), Team = "Horde" },
+            { Region = RRS("Thunder Bluff"), Vendor = RRS("Taur Stonehoof"), Team = "Horde" },
          },
       },
       {
@@ -1099,6 +1097,8 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Darnassus"), Vendor = RRS("Mythrin'dir"), Team = "Alliance" },
             { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Banalash"), Team = "Horde" },
+            { Region = RRS("Thalassian Highlands"), Vendor = RRS("Calaire Solarguard"), Team = "Alliance" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Ravondir Valgwyn"), Team = "Alliance" },
          },
       },
       {
@@ -1109,6 +1109,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Micha Yance"), Team = "Alliance" },
             { Region = RRS("Arathi Highlands"), Vendor = RRS("Keena"), Team = "Horde" },
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Howard Gray"), Team = "Alliance" },
          },
       },
       {
@@ -1136,6 +1137,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Thunder Bluff"), Vendor = RRS("Nata Dawnstrider"), Team = "Horde" },
             { Region = RRS("Undercity"), Vendor = RRS("Thaddeus Webb"), Team = "Horde" },
             { Region = RRS("Silithus"), Vendor = RRS("Kania"), Team = "Neutral" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Saeldor Dawnspark"), Team = "Alliance" },
          },
       },
       {
@@ -1156,6 +1158,8 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Darnassus"), Vendor = RRS("Mythrin'dir"), Team = "Alliance" },
             { Region = RRS("Undercity"), Vendor = RRS("Daniel Bartlett"), Team = "Horde" },
+            { Region = RRS("Thalassian Highlands"), Vendor = RRS("Calaire Solarguard"), Team = "Alliance" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Ravondir Valgwyn"), Team = "Alliance" },
          },
       },
       {
@@ -1209,7 +1213,7 @@ RecipeRadar_RecipeData = {
          ID = 20758,
          Type = RRS("Enchanting"),
          Skill = 45,
-         Cost = 125,
+         Cost = 500,
          Locations = {
             { Region = RRS("Silithus"), Vendor = RRS("Kania"), Team = "Neutral" },
             { Region = RRS("Darnassus"), Vendor = RRS("Vaean"), Team = "Alliance" },
@@ -1220,6 +1224,8 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Orgrimmar"), Vendor = RRS("Kithas"), Team = "Horde" },
             { Region = RRS("Ironforge"), Vendor = RRS("Tilli Thistlefuzz"), Team = "Alliance" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Lilly"), Team = "Horde" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Saeldor Dawnspark"), Team = "Alliance" },
+            { Region = RRS("Gillijim's Isle"), Vendor = RRS("Isidora"), Team = "Neutral" },
          },
       },
       {
@@ -1237,6 +1243,8 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Ironforge"), Vendor = RRS("Tilli Thistlefuzz"), Team = "Alliance" },
             { Region = RRS("Orgrimmar"), Vendor = RRS("Kithas"), Team = "Horde" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Lilly"), Team = "Horde" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Saeldor Dawnspark"), Team = "Alliance" },
+            { Region = RRS("Gillijim's Isle"), Vendor = RRS("Isidora"), Team = "Neutral" },
          },
       },
       {
@@ -1254,6 +1262,8 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Darnassus"), Vendor = RRS("Vaean"), Team = "Alliance" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Jessara Cordell"), Team = "Alliance" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Leo Sarn"), Team = "Horde" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Saeldor Dawnspark"), Team = "Alliance" },
+            { Region = RRS("Gillijim's Isle"), Vendor = RRS("Isidora"), Team = "Neutral" },
          },
       },
       {
@@ -1272,6 +1282,7 @@ RecipeRadar_RecipeData = {
          Cost = 5000,
          Locations = {
             { Region = RRS("Silithus"), Vendor = RRS("Kania"), Team = "Neutral" },
+            { Region = RRS("Gillijim's Isle"), Vendor = RRS("Isidora"), Team = "Neutral" },
          },
       },
       {
@@ -1328,7 +1339,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
          },
       },
       {
@@ -1341,7 +1352,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
          },
       },
       {
@@ -1399,6 +1410,48 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Felwood"), Vendor = RRS("Meilosh"), Team = "Neutral" },
          },
       },
+      {
+         ID = 60966,
+         Type = RRS("Enchanting"),
+         Skill = 300,
+         Cost = 40000,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("Earthcaller Jalyssa"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 61738,
+         Type = RRS("Enchanting"),
+         Skill = 185,
+         Cost = 25000,
+         Locations = {
+            { Region = RRS("Gilneas"), Vendor = RRS("'Stickypaws'"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 70198,
+         Type = RRS("Enchanting"),
+         Skill = 275,
+         Cost = 50000,
+         Locations = {
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Anara"), Team = "Horde" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Panella Evercrest"), Team = "Alliance" },
+            { Region = RRS("Stormwind City"), Vendor = RRS("Otto Fencer"), Team = "Alliance" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Gonzo Snaphands"), Team = "Neutral" },
+            { Region = RRS("Ironforge"), Vendor = RRS("Dagred Flintbeard"), Team = "Alliance" },
+            { Region = RRS("Durotar"), Vendor = RRS("Yavon Sharplight"), Team = "Neutral" },
+            { Region = RRS("Undercity"), Vendor = RRS("Yath Ruzzblast"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 60969,
+         Type = RRS("Enchanting"),
+         Skill = 300,
+         Cost = 40000,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("Deathcaller Aisha"), Team = "Neutral" },
+         },
+      },
    },
 },
 
@@ -1451,6 +1504,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Wetlands"), Vendor = RRS("Fradd Swiftgear"), Team = "Alliance" },
             { Region = RRS("Gnomeregan"), Vendor = RRS("Namdo Bizzfizzle"), Team = "Alliance" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Gagsprocket"), Team = "Neutral" },
          },
       },
       {
@@ -1460,6 +1514,7 @@ RecipeRadar_RecipeData = {
          Cost = 4000,
          Locations = {
             { Region = RRS("The Hinterlands"), Vendor = RRS("Ruppo Zipcoil"), Team = "Neutral" },
+            { Region = RRS("Tel'Abim"), Vendor = RRS("Wazlon Headiron"), Team = "Neutral" },
          },
       },
       {
@@ -1470,6 +1525,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Ironforge"), Vendor = RRS("Gearcutter Cogspinner"), Team = "Alliance" },
             { Region = RRS("Orgrimmar"), Vendor = RRS("Sovik"), Team = "Horde" },
+            { Region = RRS("Dun Morogh"), Vendor = RRS("Bimock Sparkbrake"), Team = "Alliance" },
          },
       },
       {
@@ -1480,6 +1536,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Ironforge"), Vendor = RRS("Gearcutter Cogspinner"), Team = "Alliance" },
             { Region = RRS("Orgrimmar"), Vendor = RRS("Sovik"), Team = "Horde" },
+            { Region = RRS("Dun Morogh"), Vendor = RRS("Bimock Sparkbrake"), Team = "Alliance" },
          },
       },
       {
@@ -1489,6 +1546,7 @@ RecipeRadar_RecipeData = {
          Cost = 1800,
          Locations = {
             { Region = RRS("Orgrimmar"), Vendor = RRS("Sovik"), Team = "Horde" },
+            { Region = RRS("Dun Morogh"), Vendor = RRS("Bimock Sparkbrake"), Team = "Alliance" },
          },
       },
       {
@@ -1653,6 +1711,86 @@ RecipeRadar_RecipeData = {
          Cost = 5000,
          Locations = {
             { Region = RRS("Tanaris"), Vendor = RRS("Blizrik Buckshot"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 40082,
+         Type = RRS("Engineering"),
+         Skill = 125,
+         Cost = 1500,
+         Locations = {
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Anara"), Team = "Horde" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Panella Evercrest"), Team = "Alliance" },
+            { Region = RRS("Stormwind City"), Vendor = RRS("Otto Fencer"), Team = "Alliance" },
+            { Region = RRS("Ironforge"), Vendor = RRS("Dagred Flintbeard"), Team = "Alliance" },
+            { Region = RRS("Durotar"), Vendor = RRS("Yavon Sharplight"), Team = "Neutral" },
+            { Region = RRS("Undercity"), Vendor = RRS("Yath Ruzzblast"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 40083,
+         Type = RRS("Engineering"),
+         Skill = 225,
+         Cost = 3400,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Gonzo Snaphands"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 21738,
+         Type = RRS("Engineering"),
+         Skill = 225,
+         Cost = 3500,
+         Locations = {
+            { Region = RRS("Moonglade"), Vendor = RRS("Fariel Starsong"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 81196,
+         Type = RRS("Engineering"),
+         Skill = 225,
+         Cost = 35000,
+         Locations = {
+            { Region = RRS("Durotar"), Vendor = RRS("Vanessa Clang"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 40084,
+         Type = RRS("Engineering"),
+         Skill = 175,
+         Cost = 2000,
+         Locations = {
+            { Region = RRS("Wetlands"), Vendor = RRS("Kersok Prond"), Team = "Alliance" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Ranik"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Zixil"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Shali Nosewrench"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 21737,
+         Type = RRS("Engineering"),
+         Skill = 275,
+         Cost = 16000,
+         Locations = {
+            { Region = RRS("Moonglade"), Vendor = RRS("Fariel Starsong"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 83511,
+         Type = RRS("Engineering"),
+         Skill = 125,
+         Cost = 1000,
+         Locations = {
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Sovik"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 83510,
+         Type = RRS("Engineering"),
+         Skill = 125,
+         Cost = 1000,
+         Locations = {
+            { Region = RRS("Stormwind City"), Vendor = RRS("Billibub Cogspinner"), Team = "Alliance" },
          },
       },
    },
@@ -2146,7 +2284,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
          },
       },
       {
@@ -2159,7 +2297,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
          },
       },
       {
@@ -2733,7 +2871,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
          },
       },
       {
@@ -2746,7 +2884,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
          },
       },
       {
@@ -3321,7 +3459,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Loch Modan"), Vendor = RRS("Drac Roughcut"), Team = "Alliance" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Andrew Hilbert"), Team = "Horde" },
-            { Region = RRS("The Barrens"), Vendor = RRS("Daxx Rightblast"), Team = "Neutral" },
+            { Region = RRS("Blackstone Island"), Vendor = RRS("Daxx Rightblast"), Team = "Neutral" },
          },
       },
       {
@@ -3353,7 +3491,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("The Hinterlands"), Vendor = RRS("Truk Wildbeard"), Team = "Alliance" },
             { Region = RRS("Tanaris"), Vendor = RRS("Dirge Quikcleave"), Team = "Neutral" },
 
-            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Eliana Firestorm"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Eliana Firestorm"), Team = "Neutral" },
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Fazzle 'The Slick'"), Team = "Neutral" },
             { Region = RRS("Tanaris"), Vendor = RRS("Innkeeper Fizzgrimble"), Team = "Alliance" },
             --{ Region = RRS(""), Vendor = RRS("Innkeeper Gazz"), Team = "Neutral" },
@@ -3704,7 +3842,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
          },
       },
    },
