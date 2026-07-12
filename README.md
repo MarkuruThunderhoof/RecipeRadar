@@ -22,7 +22,7 @@ minimap to open Recipe Radar or use the slash command, '/rrdr'.
   - [x] Enchanting
   - [x] Engineering
   - [x] First Aid
-  - [ ] Leatherworking
+  - [x] Leatherworking
   - [ ] Tailoring
   - [ ] Disguise
   - [ ] Jewelcrafting

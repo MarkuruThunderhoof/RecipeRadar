@@ -1806,6 +1806,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Darnassus"), Vendor = RRS("Saenorion"), Team = "Alliance" },
             { Region = RRS("Undercity"), Vendor = RRS("Joseph Moore"), Team = "Horde" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Elwion Windseeker"), Team = "Alliance" },
          },
       },
       {
@@ -1819,6 +1820,9 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Thousand Needles"), Vendor = RRS("Jandia"), Team = "Horde" },
             { Region = RRS("Arathi Highlands"), Vendor = RRS("Keena"), Team = "Horde" },
             { Region = RRS("Desolace"), Vendor = RRS("Vendor-Tron 1000"), Team = "Neutral" },
+            { Region = RRS("Tel'Abim"), Vendor = RRS("Klazz"), Team = "Neutral" },
+            { Region = RRS("Grim Reaches"), Vendor = RRS("Gormand Belchbrew"), Team = "Alliance" },
+            { Region = RRS("Grim Reaches"), Vendor = RRS("Tal'garr"), Team = "Horde" },
          },
       },
       {
@@ -1828,6 +1832,7 @@ RecipeRadar_RecipeData = {
          Cost = 650,
          Locations = {
             { Region = RRS("Redridge Mountains"), Vendor = RRS("Clyde Ranthal"), Team = "Alliance" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Begwynn Blackmallet"), Team = "Alliance" },
          },
       },
       {
@@ -1847,6 +1852,7 @@ RecipeRadar_RecipeData = {
          Specialty = RRS("Dragonscale Leatherworking"),
          Locations = {
             { Region = RRS("Azshara"), Vendor = RRS("Blimo Gadgetspring"), Team = "Neutral" },
+            { Region = RRS("Azshara"), Vendor = RRS("Bhatra"), Team = "Horde" },
          },
       },
       {
@@ -1881,6 +1887,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Feralas"), Vendor = RRS("Jangdor Swiftstrider"), Team = "Horde" },
             { Region = RRS("Undercity"), Vendor = RRS("Joseph Moore"), Team = "Horde" },
             { Region = RRS("Desolace"), Vendor = RRS("Vendor-Tron 1000"), Team = "Neutral" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Elwion Windseeker"), Team = "Alliance" },
          },
       },
       {
@@ -1910,6 +1917,7 @@ RecipeRadar_RecipeData = {
          Specialty = RRS("Tribal Leatherworking"),
          Locations = {
             { Region = RRS("The Hinterlands"), Vendor = RRS("Gigget Zipcoil"), Team = "Neutral" },
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Sarkensh"), Team = "Horde" },
          },
       },
       {
@@ -1932,6 +1940,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Westfall"), Vendor = RRS("Gina MacGregor"), Team = "Alliance" },
             { Region = RRS("Darkshore"), Vendor = RRS("Mavralyn"), Team = "Alliance" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Andrew Hilbert"), Team = "Horde" },
+            { Region = RRS("Blackstone Island"), Vendor = RRS("Daxx Rightblast"), Team = "Neutral" },
          },
       },
       {
@@ -1943,6 +1952,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Westfall"), Vendor = RRS("Gina MacGregor"), Team = "Alliance" },
             { Region = RRS("Darkshore"), Vendor = RRS("Mavralyn"), Team = "Alliance" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Andrew Hilbert"), Team = "Horde" },
+            { Region = RRS("Blackstone Island"), Vendor = RRS("Daxx Rightblast"), Team = "Neutral" },
          },
       },
       {
@@ -1993,6 +2003,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Leonard Porter"), Team = "Alliance" },
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Werg Thickblade"), Team = "Horde" },
+            { Region = RRS("Tirisfal Glades"), Vendor = RRS("Randal Portman"), Team = "Horde" },
          },
       },
       {
@@ -2004,6 +2015,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Micha Yance"), Team = "Alliance" },
             { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Christoph Jeffcoat"), Team = "Horde" },
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Blixrez Goodstitch"), Team = "Neutral" },
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Howard Gray"), Team = "Alliance" },
          },
       },
       {
@@ -2041,7 +2053,7 @@ RecipeRadar_RecipeData = {
          Skill = 90,
          Cost = 550,
          Locations = {
-            { Region = RRS("Wailing Caverns"), Vendor = RRS("Kalldan Felmoon"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Kalldan Felmoon"), Team = "Neutral" },
          },
       },
       {
@@ -2050,7 +2062,7 @@ RecipeRadar_RecipeData = {
          Skill = 105,
          Cost = 1500,
          Locations = {
-            { Region = RRS("Wailing Caverns"), Vendor = RRS("Kalldan Felmoon"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Kalldan Felmoon"), Team = "Neutral" },
          },
       },
       {
@@ -2061,6 +2073,10 @@ RecipeRadar_RecipeData = {
          Specialty = RRS("Tribal Leatherworking"),
          Locations = {
             { Region = RRS("Un'Goro Crater"), Vendor = RRS("Nergal"), Team = "Neutral" },
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Belgrush Daggerfist"), Team = "Neutral" },
+            { Region = RRS("Gillijim's Isle"), Vendor = RRS("Garto'ogg"), Team = "Horde" },
+            { Region = RRS("Gilneas"), Vendor = RRS("Savenna Mosscage"), Team = "Horde" },
+            { Region = RRS("Azshara"), Vendor = RRS("Bhatra"), Team = "Horde" },
          },
       },
       {
@@ -2126,7 +2142,8 @@ RecipeRadar_RecipeData = {
          Skill = 290,
          Cost = 22000,
          Locations = {
-            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Jase Farlane"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Jase Farlane"), Team = "Neutral" },
+            { Region = RRS("Hyjal"), Vendor = RRS("Relthan Highmoon"), Team = "Neutral" },
          },
       },
       {
@@ -2464,6 +2481,116 @@ RecipeRadar_RecipeData = {
          Level = 7,
          Locations = {
             { Region = RRS("Silithus"), Vendor = RRS("Aendel Windspear"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 8388,
+         Type = RRS("Leatherworking"),
+         Skill = 230,
+         Cost = 5000,
+         Locations = {
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Elwion Windseeker"), Team = "Alliance" },
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Tamar"), Team = "Horde" },
+            { Region = RRS("Stormwind City"), Vendor = RRS("Jillian Tanner"), Team = "Alliance" },
+            { Region = RRS("Ironforge"), Vendor = RRS("Bombus Finespindle"), Team = "Alliance" },
+            { Region = RRS("Darnassus"), Vendor = RRS("Saenorion"), Team = "Alliance" },
+            { Region = RRS("Thunder Bluff"), Vendor = RRS("Mahu"), Team = "Horde" },
+            { Region = RRS("Undercity"), Vendor = RRS("Joseph Moore"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 5083,
+         Type = RRS("Leatherworking"),
+         Skill = 40,
+         Cost = 200,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Hal'dah Plainsguard"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 83538,
+         Type = RRS("Leatherworking"),
+         Skill = 295,
+         Cost = 10000,
+         Locations = {
+            { Region = RRS("Wetlands"), Vendor = RRS("Wenna Silkbeard"), Team = "Alliance" },
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Krak"), Team = "Horde" },
+         },
+      },
+      {
+         ID = 60968,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 40000,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("Deathcaller Aisha"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 15754,
+         Type = RRS("Leatherworking"),
+         Skill = 285,
+         Cost = 20000,
+         Locations = {
+            { Region = RRS("Felwood"), Vendor = RRS("Meilosh"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 83546,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 60000,
+         Faction = RRS("Cenarion Circle"),
+         Level = 8,
+         Locations = {
+            { Region = RRS("Silithus"), Vendor = RRS("Aendel Windspear"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 15742,
+         Type = RRS("Leatherworking"),
+         Skill = 275,
+         Cost = 16000,
+         Locations = {
+            { Region = RRS("Felwood"), Vendor = RRS("Meilosh"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 62003,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 120000,
+         Faction = RRS("Thorium Brotherhood"),
+         Level = 8,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 8384,
+         Type = RRS("Leatherworking"),
+         Skill = 200,
+         Cost = 3500,
+         Locations = {
+            { Region = RRS("Gilneas"), Vendor = RRS("Samantha Stewards"), Team = "Alliance" },
+         },
+      },
+      {
+         ID = 62006,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 120000,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 62007,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 120000,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral" },
          },
       },
    },
