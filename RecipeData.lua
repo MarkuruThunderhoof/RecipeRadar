@@ -4053,5 +4053,65 @@ RecipeRadar_RecipeData = {
    },
 },
 
+[RRS("Disguise")] = {
+   Recipes = {
+      {
+         ID = 5126,
+         Type = RRS("Disguise"),
+         Skill = 1,
+         Cost = 2500,
+         Locations = {
+            { Region = RRS("Westfall"), Vendor = RRS("Suspicious Defias Footpad"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 5127,
+         Type = RRS("Disguise"),
+         Skill = 1,
+         Cost = 2500,
+         Locations = {
+            { Region = RRS("Wetlands"), Vendor = RRS("Suspicious Southsea Pirate"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Suspicious Southsea Pirate"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 5129,
+         Type = RRS("Disguise"),
+         Skill = 1,
+         Cost = 2500,
+         Locations = {
+            { Region = RRS("Wetlands"), Vendor = RRS("Suspicious Dark Iron Dwarf"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 5130,
+         Type = RRS("Disguise"),
+         Skill = 1,
+         Cost = 2500,
+         Locations = {
+            { Region = RRS("Silverpine Forest"), Vendor = RRS("Suspicious Dalaran Wizard"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 5131,
+         Type = RRS("Disguise"),
+         Skill = 1,
+         Cost = 2500,
+         Locations = {
+            { Region = RRS("Loch Modan"), Vendor = RRS("Suspicious Stonesplinter Trogg"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 5132,
+         Type = RRS("Disguise"),
+         Skill = 1,
+         Cost = 2500,
+         Locations = {
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Suspicious Syndicate Highwayman"), Team = "Neutral" },
+         },
+      },
+   },
+},
+
 }
 

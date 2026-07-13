@@ -342,6 +342,16 @@ RecipeRadar_RegionData = {
             { ID = 16110, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
          },
       },
+      {
+         Name = RRS("Suspicious Syndicate Highwayman"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.341, y = 0.273 },
+         },
+         Recipes = {
+            { ID = 5132, Type = RRS("Disguise"), Skill = 1, Cost = 2500 },
+         },
+      },
    },
 },
 
@@ -1088,6 +1098,16 @@ RecipeRadar_RegionData = {
             { ID = 16111, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
          },
       },
+      {
+         Name = RRS("Suspicious Defias Footpad"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.43, y = 0.731 },
+         },
+         Recipes = {
+            { ID = 5126, Type = RRS("Disguise"), Skill = 1, Cost = 2500 },
+         },
+      },
    },
 },
 
@@ -1140,6 +1160,16 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 6053, Type = RRS("Alchemy"), Skill = 100, Cost = 800 },
             { ID = 5640, Type = RRS("Alchemy"), Skill = 60, Cost = 100 },
+         },
+      },
+      {
+         Name = RRS("Suspicious Stonesplinter Trogg"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.123, y = 0.727 },
+         },
+         Recipes = {
+            { ID = 5131, Type = RRS("Disguise"), Skill = 1, Cost = 2500 },
          },
       },
    },
@@ -1321,6 +1351,26 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 40084, Type = RRS("Engineering"), Skill = 175, Cost = 2000 },
+         },
+      },
+      {
+         Name = RRS("Suspicious Southsea Pirate"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.066, y = 0.599 },
+         },
+         Recipes = {
+            { ID = 5127, Type = RRS("Disguise"), Skill = 1, Cost = 2500 },
+         },
+      },
+      {
+         Name = RRS("Suspicious Dark Iron Dwarf"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.488, y = 0.167 },
+         },
+         Recipes = {
+            { ID = 5129, Type = RRS("Disguise"), Skill = 1, Cost = 2500 },
          },
       },
    },
@@ -2342,6 +2392,16 @@ RecipeRadar_RegionData = {
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
          },
       },
+      {
+         Name = RRS("Suspicious Dalaran Wizard"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.587, y = 0.775 },
+         },
+         Recipes = {
+            { ID = 5130, Type = RRS("Disguise"), Skill = 1, Cost = 2500 },
+         },
+      },
    },
 },
 
@@ -2814,6 +2874,16 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5083, Type = RRS("Leatherworking"), Skill = 40, Cost = 200 },
+         },
+      },
+      {
+         Name = RRS("Suspicious Southsea Pirate"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.633, y = 0.435 },
+         },
+         Recipes = {
+            { ID = 5127, Type = RRS("Disguise"), Skill = 1, Cost = 2500 },
          },
       },
    },

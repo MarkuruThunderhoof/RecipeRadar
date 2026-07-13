@@ -95,6 +95,10 @@ RecipeRadar_Professions = {
       Name = RRS("Cooking"),
       Icon = RECIPERADAR_IMAGE_ROOT .. "Icons\\" .. "Cooking",
    },
+   [RRS("Disguise")] = {
+      Name = RRS("Disguise"),
+      Icon = RECIPERADAR_IMAGE_ROOT .. "Icons\\" .. "Disguise",
+   },
    [RRS("Enchanting")] = {
       Name = RRS("Enchanting"),
       Icon = RECIPERADAR_IMAGE_ROOT .. "Icons\\" .. "Enchanting",
