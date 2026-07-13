@@ -123,6 +123,10 @@ RecipeRadar_Professions = {
       Name = RRS("Tailoring"),
       Icon = RECIPERADAR_IMAGE_ROOT .. "Icons\\" .. "Tailoring",
    },
+   [RRS("Jewelcrafting")] = {
+      Name = RRS("Jewelcrafting"),
+      Icon = RECIPERADAR_IMAGE_ROOT .. "Icons\\" .. "Jewelcrafting",
+   },
 
 }
 

@@ -4113,5 +4113,77 @@ RecipeRadar_RecipeData = {
    },
 },
 
+[RRS("Jewelcrafting")] = {
+   Recipes = {
+      {
+         ID = 56024,
+         Type = RRS("Jewelcrafting"),
+         Skill = 265,
+         Cost = 9200,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Gonzo Snaphands"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 70115,
+         Type = RRS("Jewelcrafting"),
+         Skill = 170,
+         Cost = 8500,
+         Locations = {
+            { Region = RRS("Gilneas"), Vendor = RRS("'Stickypaws'"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 70128,
+         Type = RRS("Jewelcrafting"),
+         Skill = 210,
+         Cost = 11500,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Qia"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 70144,
+         Type = RRS("Jewelcrafting"),
+         Skill = 115,
+         Cost = 700,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Ranik"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 70168,
+         Type = RRS("Jewelcrafting"),
+         Skill = 175,
+         Cost = 5000,
+         Locations = {
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Zixil"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 70178,
+         Type = RRS("Jewelcrafting"),
+         Skill = 290,
+         Cost = 22000,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 70216,
+         Type = RRS("Jewelcrafting"),
+         Skill = 285,
+         Cost = 30000,
+         Faction = RRS("Argent Dawn"),
+         Level = 6,
+         Locations = {
+            { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
+            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
+         },
+      },
+   },
+},
+
 }
 

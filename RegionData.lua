@@ -1808,6 +1808,7 @@ RecipeRadar_RegionData = {
             { ID = 19216, Type = RRS("Tailoring"), Skill = 290, Cost = 22000, Faction = RRS("Argent Dawn"), Level = 6 },
             { ID = 19217, Type = RRS("Tailoring"), Skill = 300, Cost = 40000, Faction = RRS("Argent Dawn"), Level = 7 },
             { ID = 19442, Type = RRS("First Aid"), Skill = 300, Cost = 100000, Faction = RRS("Argent Dawn"), Level = 6 },
+            { ID = 70216, Type = RRS("Jewelcrafting"), Skill = 285, Cost = 30000, Faction = RRS("Argent Dawn"), Level = 6 },
          },
       },
       {
@@ -1954,6 +1955,7 @@ RecipeRadar_RegionData = {
             { ID = 5772, Type = RRS("Tailoring"), Skill = 115, Cost = 500 },
             { ID = 40084, Type = RRS("Engineering"), Skill = 175, Cost = 2000 },
             { ID = 7093, Type = RRS("Tailoring"), Skill = 140, Cost = 800 },
+            { ID = 70168, Type = RRS("Jewelcrafting"), Skill = 175, Cost = 5000 },
          },
       },
       {
@@ -2181,6 +2183,7 @@ RecipeRadar_RegionData = {
             { ID = 19216, Type = RRS("Tailoring"), Skill = 290, Cost = 22000, Faction = RRS("Argent Dawn"), Level = 6 },
             { ID = 19217, Type = RRS("Tailoring"), Skill = 300, Cost = 40000, Faction = RRS("Argent Dawn"), Level = 7 },
             { ID = 19442, Type = RRS("First Aid"), Skill = 300, Cost = 100000, Faction = RRS("Argent Dawn"), Level = 6 },
+            { ID = 70216, Type = RRS("Jewelcrafting"), Skill = 285, Cost = 30000, Faction = RRS("Argent Dawn"), Level = 6 },
          },
       },
       {
@@ -2832,6 +2835,7 @@ RecipeRadar_RegionData = {
             { ID = 6272, Type = RRS("Tailoring"), Skill = 70, Cost = 300 },
             { ID = 6275, Type = RRS("Tailoring"), Skill = 115, Cost = 800 },
             { ID = 40084, Type = RRS("Engineering"), Skill = 175, Cost = 2000 },
+            { ID = 70144, Type = RRS("Jewelcrafting"), Skill = 115, Cost = 700 },
          },
       },
       {
@@ -3296,6 +3300,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 70198, Type = RRS("Enchanting"), Skill = 275, Cost = 50000 },
             { ID = 40083, Type = RRS("Engineering"), Skill = 225, Cost = 3400 },
+            { ID = 56024, Type = RRS("Jewelcrafting"), Skill = 265, Cost = 9200 },
          },
       },
    },
@@ -3419,6 +3424,7 @@ RecipeRadar_RegionData = {
             { ID = 14468, Type = RRS("Tailoring"), Skill = 260, Cost = 12000 },
             { ID = 14481, Type = RRS("Tailoring"), Skill = 275, Cost = 16000 },
             { ID = 16110, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
+            { ID = 70128, Type = RRS("Jewelcrafting"), Skill = 210, Cost = 11500 },
          },
       },
       {
@@ -3519,6 +3525,7 @@ RecipeRadar_RegionData = {
             { ID = 62006, Type = RRS("Leatherworking"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 8 },
             { ID = 62007, Type = RRS("Leatherworking"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 8 },
             { ID = 62005, Type = RRS("Tailoring"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 8 },
+            { ID = 70178, Type = RRS("Jewelcrafting"), Skill = 290, Cost = 22000},
          },
       },
       {
@@ -3993,6 +4000,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 61676, Type = RRS("Cooking"), Skill = 200, Cost = 2500 },
             { ID = 61738, Type = RRS("Enchanting"), Skill = 185, Cost = 25000 },
+            { ID = 70115, Type = RRS("Jewelcrafting"), Skill = 170, Cost = 8500 },
          },
       },
       {
@@ -4163,6 +4171,7 @@ RecipeRadar_RegionData = {
             { ID = 19216, Type = RRS("Tailoring"), Skill = 290, Cost = 22000, Faction = RRS("Argent Dawn"), Level = 6 },
             { ID = 19217, Type = RRS("Tailoring"), Skill = 300, Cost = 40000, Faction = RRS("Argent Dawn"), Level = 7 },
             { ID = 19442, Type = RRS("First Aid"), Skill = 300, Cost = 100000, Faction = RRS("Argent Dawn"), Level = 6 },
+            { ID = 70216, Type = RRS("Jewelcrafting"), Skill = 285, Cost = 30000, Faction = RRS("Argent Dawn"), Level = 6 },
          },
       },
       {

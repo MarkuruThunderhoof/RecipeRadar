@@ -25,7 +25,7 @@ minimap to open Recipe Radar or use the slash command, '/rrdr'.
   - [x] Leatherworking
   - [x] Tailoring
   - [x] Disguise
-  - [ ] Jewelcrafting
+  - [x] Jewelcrafting
 - [ ] Replace all changed zone textures
 - [ ] Update NPC coordinates
 - [ ] Recalibrate zone-to-minimap conversion coefficients
