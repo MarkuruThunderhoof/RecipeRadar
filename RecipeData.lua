@@ -478,6 +478,7 @@ RecipeRadar_RecipeData = {
          Type = RRS("Blacksmithing"),
          Skill = 295,
          Cost = 40000,
+         Specialty = RRS("Armorsmith"),
          Locations = {
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Magnus Frostwake"), Team = "Neutral" },
          },
@@ -512,7 +513,7 @@ RecipeRadar_RecipeData = {
          Skill = 300,
          Cost = 120000,
          Faction = RRS("Thorium Brotherhood"),
-         Level = 8,
+         Level = 7,
          Specialty = RRS("Master Swordsmith"),
          Locations = {
             { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral" },
@@ -524,7 +525,7 @@ RecipeRadar_RecipeData = {
          Skill = 300,
          Cost = 120000,
          Faction = RRS("Thorium Brotherhood"),
-         Level = 8,
+         Level = 7,
          Specialty = RRS("Master Hammersmith"),
          Locations = {
             { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral" },
@@ -536,7 +537,7 @@ RecipeRadar_RecipeData = {
          Skill = 300,
          Cost = 120000,
          Faction = RRS("Thorium Brotherhood"),
-         Level = 8,
+         Level = 7,
          Specialty = RRS("Master Axesmith"),
          Locations = {
             { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral" },
@@ -901,6 +902,7 @@ RecipeRadar_RecipeData = {
       {
          ID = 12817,
          Type = RRS("Blacksmithing"),
+         Specialty = RRS("Weaponsmith"),
          Skill = 270,
          Cost = 16000,
          Locations = {
@@ -1415,6 +1417,8 @@ RecipeRadar_RecipeData = {
          Type = RRS("Enchanting"),
          Skill = 300,
          Cost = 40000,
+         Faction = RRS("Gelkis Clan Centaur"),
+         Level = 8,
          Locations = {
             { Region = RRS("Desolace"), Vendor = RRS("Earthcaller Jalyssa"), Team = "Neutral" },
          },
@@ -1448,6 +1452,8 @@ RecipeRadar_RecipeData = {
          Type = RRS("Enchanting"),
          Skill = 300,
          Cost = 40000,
+         Faction = RRS("Magram Clan Centaur"),
+         Level = 8,
          Locations = {
             { Region = RRS("Desolace"), Vendor = RRS("Deathcaller Aisha"), Team = "Neutral" },
          },
@@ -2160,6 +2166,7 @@ RecipeRadar_RecipeData = {
          Type = RRS("Leatherworking"),
          Skill = 290,
          Cost = 22000,
+         Specialty = RRS("Dragonscale Leatherworking"),
          Locations = {
             { Region = RRS("Blackrock Depths"), Vendor = RRS("Plugger Spazzring"), Team = "Neutral" },
          },
@@ -2512,6 +2519,7 @@ RecipeRadar_RecipeData = {
          Type = RRS("Leatherworking"),
          Skill = 295,
          Cost = 10000,
+         Specialty = RRS("Dragonscale Leatherworking"),
          Locations = {
             { Region = RRS("Wetlands"), Vendor = RRS("Wenna Silkbeard"), Team = "Alliance" },
             { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Krak"), Team = "Horde" },
@@ -2522,6 +2530,8 @@ RecipeRadar_RecipeData = {
          Type = RRS("Leatherworking"),
          Skill = 300,
          Cost = 40000,
+         Faction = RRS("Magram Clan Centaur"),
+         Level = 8,
          Locations = {
             { Region = RRS("Desolace"), Vendor = RRS("Deathcaller Aisha"), Team = "Neutral" },
          },
@@ -2580,6 +2590,8 @@ RecipeRadar_RecipeData = {
          Type = RRS("Leatherworking"),
          Skill = 300,
          Cost = 120000,
+         Faction = RRS("Thorium Brotherhood"),
+         Level = 8,
          Locations = {
             { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral" },
          },
@@ -2589,6 +2601,8 @@ RecipeRadar_RecipeData = {
          Type = RRS("Leatherworking"),
          Skill = 300,
          Cost = 120000,
+         Faction = RRS("Thorium Brotherhood"),
+         Level = 8,
          Locations = {
             { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral" },
          },
@@ -3177,6 +3191,8 @@ RecipeRadar_RecipeData = {
          Type = RRS("Tailoring"),
          Skill = 300,
          Cost = 40000,
+         Faction = RRS("Gelkis Clan Centaur"),
+         Level = 8,
          Locations = {
             { Region = RRS("Desolace"), Vendor = RRS("Earthcaller Jalyssa"), Team = "Neutral", Faction = RRS("Gelkis Clan Centaur"), Level = 8},
          },
@@ -3213,6 +3229,8 @@ RecipeRadar_RecipeData = {
          Type = RRS("Tailoring"),
          Skill = 300,
          Cost = 40000,
+         Faction = RRS("Magram Clan Centaur"),
+         Level = 8,
          Locations = {
             { Region = RRS("Desolace"), Vendor = RRS("Deathcaller Aisha"), Team = "Neutral"},
          },

@@ -359,8 +359,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Azshara",
-   MapScale = 0.13779501505279,
-   MapOffset = { x = 0.55282036918049, y = 0.30400571307545 },
+   MapScale = 0.13780935177579,
+   MapOffset = { x = 0.55282022883206, y = 0.30400560910822 },
    Vendors = {
       {
          Name = RRS("Blimo Gadgetspring"),
@@ -384,7 +384,7 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Bhatrag"),
+         Name = RRS("Bhatra"),
          Team = "Horde",
          Coordinates = {
             { x = 0.534, y = 0.109 },
@@ -392,6 +392,16 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 15758, Type = RRS("Leatherworking"), Skill = 290, Cost = 22000 },
             { ID = 15751, Type = RRS("Leatherworking"), Skill = 285, Cost = 20000 },
+         },
+      },
+      {
+         Name = RRS("Hydrolon"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.791, y = 0.738 },
+         },
+         Recipes = {
+            { ID = 91797, Type = RRS("Alchemy"), Skill = 300, Cost = 120000 },
          },
       },
    },
@@ -1340,7 +1350,7 @@ RecipeRadar_RegionData = {
             { ID = 7613, Type = RRS("Leatherworking"), Skill = 155, Cost = 2000 },
             { ID = 7290, Type = RRS("Leatherworking"), Skill = 120, Cost = 1600 },
             { ID = 7114, Type = RRS("Tailoring"), Skill = 145, Cost = 1000 },
-            { ID = 83538, Type = RRS("Leatherworking"), Skill = 295, Cost = 10000 },
+            { ID = 83538, Type = RRS("Leatherworking"), Skill = 295, Cost = 10000, Specialty = RRS("Dragonscale Leatherworking") },
          },
       },
       {
@@ -1765,9 +1775,9 @@ RecipeRadar_RegionData = {
             { x = 0.739, y = 0.738 },
          },
          Recipes = {
-            { ID = 60969, Type = RRS("Enchanting"), Skill = 300, Cost = 40000 },
-            { ID = 60968, Type = RRS("Leatherworking"), Skill = 300, Cost = 40000 },
-            { ID = 60967, Type = RRS("Tailoring"), Skill = 300, Cost = 40000 },
+            { ID = 60969, Type = RRS("Enchanting"), Skill = 300, Cost = 40000, Faction = RRS("Magram Clan Centaur"), Level = 8 },
+            { ID = 60968, Type = RRS("Leatherworking"), Skill = 300, Cost = 40000, Faction = RRS("Magram Clan Centaur"), Level = 8 },
+            { ID = 60967, Type = RRS("Tailoring"), Skill = 300, Cost = 40000, Faction = RRS("Magram Clan Centaur"), Level = 8 },
          },
       },
    },
@@ -1824,7 +1834,7 @@ RecipeRadar_RegionData = {
             { ID = 8030, Type = RRS("Blacksmithing"), Skill = 255, Cost = 10000 },
             { ID = 12823, Type = RRS("Blacksmithing"), Skill = 280, Cost = 20000 },
             { ID = 12819, Type = RRS("Blacksmithing"), Skill = 275, Cost = 16000 },
-            { ID = 12703, Type = RRS("Blacksmithing"), Skill = 295, Cost = 40000 },
+            { ID = 12703, Type = RRS("Blacksmithing"), Skill = 295, Cost = 40000, Specialty = RRS("Armorsmith") },
          },
       },
       {
@@ -2029,7 +2039,7 @@ RecipeRadar_RegionData = {
             { x = 0.504, y = 0.741 },
          },
          Recipes = {
-            { ID = 12817, Type = RRS("Cooking"), Skill = 270, Cost = 16000 },
+            { ID = 12817, Type = RRS("Cooking"), Skill = 270, Cost = 16000, Specialty = RRS("Weaponsmith") },
          },
       },
       {
@@ -3491,22 +3501,22 @@ RecipeRadar_RegionData = {
          Name = RRS("Lokhtos Darkbargainer"),
          Team = "Neutral",
          Recipes = {
-            { ID = 19208, Type = RRS("Blacksmithing"), Skill = 300, Cost = 70000, Faction = RRS("Thorium Brotherhood"), Level = 7, Specialty = RRS("Weaponsmith") },
+            { ID = 19208, Type = RRS("Blacksmithing"), Skill = 300, Cost = 70000, Faction = RRS("Thorium Brotherhood"), Level = 6, Specialty = RRS("Weaponsmith") },
             { ID = 19209, Type = RRS("Blacksmithing"), Skill = 300, Cost = 70000, Faction = RRS("Thorium Brotherhood"), Level = 8, Specialty = RRS("Weaponsmith") },
-            { ID = 19211, Type = RRS("Blacksmithing"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 8, Specialty = RRS("Master Swordsmith") },
+            { ID = 19211, Type = RRS("Blacksmithing"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 7, Specialty = RRS("Master Swordsmith") },
             { ID = 17051, Type = RRS("Blacksmithing"), Skill = 295, Cost = 70000, Faction = RRS("Thorium Brotherhood"), Level = 5, Specialty = RRS("Armorsmith") },
-            { ID = 17060, Type = RRS("Blacksmithing"), Skill = 300, Cost = 220000, Faction = RRS("Thorium Brotherhood"), Level = 8, Specialty = RRS("Master Axesmith") },
-            { ID = 19207, Type = RRS("Blacksmithing"), Skill = 300, Cost = 80000, Faction = RRS("Thorium Brotherhood"), Level = 7, Specialty = RRS("Armorsmith") },
-            { ID = 19206, Type = RRS("Blacksmithing"), Skill = 300, Cost = 60000, Faction = RRS("Thorium Brotherhood"), Level = 7, Specialty = RRS("Armorsmith") },
-            { ID = 17052, Type = RRS("Blacksmithing"), Skill = 300, Cost = 180000, Faction = RRS("Thorium Brotherhood"), Level = 8, Specialty = RRS("Armorsmith") },
+            { ID = 17060, Type = RRS("Blacksmithing"), Skill = 300, Cost = 220000, Faction = RRS("Thorium Brotherhood"), Level = 6, Specialty = RRS("Master Axesmith") },
+            { ID = 19207, Type = RRS("Blacksmithing"), Skill = 300, Cost = 80000, Faction = RRS("Thorium Brotherhood"), Level = 6, Specialty = RRS("Armorsmith") },
+            { ID = 19206, Type = RRS("Blacksmithing"), Skill = 300, Cost = 60000, Faction = RRS("Thorium Brotherhood"), Level = 5, Specialty = RRS("Armorsmith") },
+            { ID = 17052, Type = RRS("Blacksmithing"), Skill = 300, Cost = 180000, Faction = RRS("Thorium Brotherhood"), Level = 7, Specialty = RRS("Armorsmith") },
             { ID = 17059, Type = RRS("Blacksmithing"), Skill = 300, Cost = 220000, Faction = RRS("Thorium Brotherhood"), Level = 6, Specialty = RRS("Master Swordsmith") },
             { ID = 20040, Type = RRS("Blacksmithing"), Skill = 300, Cost = 80000, Faction = RRS("Thorium Brotherhood"), Level = 8, Specialty = RRS("Armorsmith") },
-            { ID = 19210, Type = RRS("Blacksmithing"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 8, Specialty = RRS("Master Hammersmith") },
+            { ID = 19210, Type = RRS("Blacksmithing"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 7, Specialty = RRS("Master Hammersmith") },
             { ID = 17049, Type = RRS("Blacksmithing"), Skill = 295, Cost = 90000, Faction = RRS("Thorium Brotherhood"), Level = 6, Specialty = RRS("Armorsmith") },
             { ID = 17053, Type = RRS("Blacksmithing"), Skill = 300, Cost = 200000, Faction = RRS("Thorium Brotherhood"), Level = 7, Specialty = RRS("Armorsmith") },
-            { ID = 19212, Type = RRS("Blacksmithing"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 8, Specialty = RRS("Master Axesmith") },
-            { ID = 19449, Type = RRS("Enchanting"), Skill = 300, Cost = 100000, Faction = RRS("Thorium Brotherhood"), Level = 7 },
-            { ID = 19448, Type = RRS("Enchanting"), Skill = 300, Cost = 80000, Faction = RRS("Thorium Brotherhood"), Level = 6 },
+            { ID = 19212, Type = RRS("Blacksmithing"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 7, Specialty = RRS("Master Axesmith") },
+            { ID = 19449, Type = RRS("Enchanting"), Skill = 300, Cost = 100000, Faction = RRS("Thorium Brotherhood"), Level = 5 },
+            { ID = 19448, Type = RRS("Enchanting"), Skill = 300, Cost = 80000, Faction = RRS("Thorium Brotherhood"), Level = 5 },
             { ID = 19444, Type = RRS("Enchanting"), Skill = 290, Cost = 30000, Faction = RRS("Thorium Brotherhood"), Level = 5 },
             { ID = 17025, Type = RRS("Leatherworking"), Skill = 300, Cost = 160000, Faction = RRS("Thorium Brotherhood"), Level = 6, Specialty = RRS("Dragonscale Leatherworking") },
             { ID = 19331, Type = RRS("Leatherworking"), Skill = 300, Cost = 90000, Faction = RRS("Thorium Brotherhood"), Level = 7, Specialty = RRS("Dragonscale Leatherworking") },
@@ -3533,7 +3543,7 @@ RecipeRadar_RegionData = {
          Team = "Neutral",
          Recipes = {
             { ID = 13483, Type = RRS("Alchemy"), Skill = 275, Cost = 15000 },
-            { ID = 15759, Type = RRS("Leatherworking"), Skill = 290, Cost = 22000 },
+            { ID = 15759, Type = RRS("Leatherworking"), Skill = 290, Cost = 22000, Specialty = RRS("Dragonscale Leatherworking") },
          },
       },
    },
@@ -3626,26 +3636,6 @@ RecipeRadar_RegionData = {
          Name = RRS("Master Craftsman Omarion"),
          Team = "Neutral",
          Recipes = {
-         },
-      },
-   },
-},
-
-[RRS("Azshara")] = {
-   IsCity = false,
-   Continent = 1,
-   MapFile = "Azshara",
-   MapScale = 13780935177579,
-   MapOffset = { x = 0.55282022883206, y = 0.30400560910822 },
-   Vendors = {
-      {
-         Name = RRS("Hydrolon"),
-         Team = "Neutral",
-         Coordinates = {
-            { x = 0.791, y = 0.738 },
-         },
-         Recipes = {
-            { ID = 91797, Type = RRS("Alchemy"), Skill = 300, Cost = 120000 },
          },
       },
    },
