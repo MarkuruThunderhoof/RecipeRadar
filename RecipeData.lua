@@ -2629,6 +2629,10 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Andrew Hilbert"), Team = "Horde" },
             { Region = RRS("The Barrens"), Vendor = RRS("Wrahk"), Team = "Horde" },
             { Region = RRS("The Barrens"), Vendor = RRS("Ranik"), Team = "Neutral" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Lyrei Silverbrook"), Team = "Alliance" },
+            { Region = RRS("Blackstone Island"), Vendor = RRS("Daxx Rightblast"), Team = "Neutral" },
+            { Region = RRS("Durotar"), Vendor = RRS("Karey Gozzleratch"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Orman Granitemantle"), Team = "Alliance" },
          },
       },
       {
@@ -2642,6 +2646,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Orgrimmar"), Vendor = RRS("Borya"), Team = "Horde" },
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Constance Brisboise"), Team = "Horde" },
             { Region = RRS("The Barrens"), Vendor = RRS("Wrahk"), Team = "Horde" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Elenia Everdawn"), Team = "Alliance" },
          },
       },
       {
@@ -2689,6 +2694,9 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Duskwood"), Vendor = RRS("Sheri Zipstitch"), Team = "Alliance" },
             { Region = RRS("Undercity"), Vendor = RRS("Millie Gregorian"), Team = "Horde" },
             { Region = RRS("The Barrens"), Vendor = RRS("Ranik"), Team = "Neutral" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Lyrei Silverbrook"), Team = "Alliance" },
+            { Region = RRS("Durotar"), Vendor = RRS("Karey Gozzleratch"), Team = "Neutral" },
+            { Region = RRS("Northwind"), Vendor = RRS("Alison Swift"), Team = "Alliance" },
          },
       },
       {
@@ -2699,6 +2707,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Micha Yance"), Team = "Alliance" },
             { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Ghok'kah"), Team = "Horde" },
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Howard Gray"), Team = "Alliance"},
          },
       },
       {
@@ -2719,6 +2728,8 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Darnassus"), Vendor = RRS("Elynna"), Team = "Alliance" },
             { Region = RRS("Thunder Bluff"), Vendor = RRS("Mahu"), Team = "Horde" },
+            { Region = RRS("Durotar"), Vendor = RRS("Karey Gozzleratch"), Team = "Neutral" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Lyrei Silverbrook"), Team = "Alliance" },
          },
       },
       {
@@ -2741,6 +2752,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Darkshore"), Vendor = RRS("Valdaron"), Team = "Alliance" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Andrew Hilbert"), Team = "Horde" },
             { Region = RRS("Thunder Bluff"), Vendor = RRS("Mahu"), Team = "Horde" },
+            { Region = RRS("Blackstone Island"), Vendor = RRS("Daxx Rightblast"), Team = "Neutral" },
          },
       },
       {
@@ -2760,6 +2772,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("The Barrens"), Vendor = RRS("Yonada"), Team = "Horde" },
             { Region = RRS("The Barrens"), Vendor = RRS("Kiknikle"), Team = "Neutral" },
             { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Zixil"), Team = "Neutral" },
+            { Region = RRS("Northwind"), Vendor = RRS("Alison Swift"), Team = "Alliance" },
          },
       },
       {
@@ -3071,6 +3084,8 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Ironforge"), Vendor = RRS("Tilli Thistlefuzz"), Team = "Alliance" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Lilly"), Team = "Horde" },
             { Region = RRS("Silithus"), Vendor = RRS("Kania"), Team = "Neutral" },
+            { Region = RRS("Alah'Thalas"), Vendor = RRS("Saeldor Dawnspark"), Team = "Alliance" },
+            { Region = RRS("Gillijim's Isle"), Vendor = RRS("Isidora"), Team = "Neutral" },
          },
       },
       {
@@ -3146,6 +3161,69 @@ RecipeRadar_RecipeData = {
          Level = 7,
          Locations = {
             { Region = RRS("Silithus"), Vendor = RRS("Mishta"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 7093,
+         Type = RRS("Tailoring"),
+         Skill = 140,
+         Cost = 800,
+         Locations = {
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Zixil"), Team = "Neutral" },
+         },
+      },
+      {
+         ID = 60965,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 40000,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("Earthcaller Jalyssa"), Team = "Neutral", Faction = RRS("Gelkis Clan Centaur"), Level = 8},
+         },
+      },
+      {
+         ID = 6273,
+         Type = RRS("Tailoring"),
+         Skill = 90,
+         Cost = 750,
+         Locations = {
+            { Region = RRS("Westfall"), Vendor = RRS("Defias Profiteer"), Team = "Neutral"},
+         },
+      },
+      {
+         ID = 21723,
+         Type = RRS("Tailoring"),
+         Skill = 250,
+         Cost = 1250,
+         Locations = {
+            { Region = RRS("Moonglade"), Vendor = RRS("Fariel Starsong"), Team = "Neutral"},
+         },
+      },
+      {
+         ID = 21722,
+         Type = RRS("Tailoring"),
+         Skill = 250,
+         Cost = 1250,
+         Locations = {
+            { Region = RRS("Moonglade"), Vendor = RRS("Fariel Starsong"), Team = "Neutral"},
+         },
+      },
+      {
+         ID = 60967,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 40000,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("Deathcaller Aisha"), Team = "Neutral"},
+         },
+      },
+      {
+         ID = 62005,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 40000,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Lokhtos Darkbargainer"), Team = "Neutral", Faction = RRS("Thorium Brotherhood"), Level = 8},
          },
       },
    },

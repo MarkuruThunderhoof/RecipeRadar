@@ -1059,6 +1059,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5640, Type = RRS("Alchemy"), Skill = 60, Cost = 100 },
+            { ID = 6273, Type = RRS("Tailoring"), Skill = 90, Cost = 750 },
          },
       },
       {
@@ -1704,6 +1705,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 60964, Type = RRS("Blacksmithing"), Skill = 300, Cost = 40000, Faction = RRS("Gelkis Clan Centaur"), Level = 8},
             { ID = 60966, Type = RRS("Enchanting"), Skill = 300, Cost = 40000, Faction = RRS("Gelkis Clan Centaur"), Level = 8},
+            { ID = 60965, Type = RRS("Tailoring"), Skill = 300, Cost = 40000, Faction = RRS("Gelkis Clan Centaur"), Level = 8},
          },
       },
       {
@@ -1715,6 +1717,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 60969, Type = RRS("Enchanting"), Skill = 300, Cost = 40000 },
             { ID = 60968, Type = RRS("Leatherworking"), Skill = 300, Cost = 40000 },
+            { ID = 60967, Type = RRS("Tailoring"), Skill = 300, Cost = 40000 },
          },
       },
    },
@@ -1900,6 +1903,7 @@ RecipeRadar_RegionData = {
             { ID = 7362, Type = RRS("Leatherworking"), Skill = 135, Cost = 2000 },
             { ID = 5772, Type = RRS("Tailoring"), Skill = 115, Cost = 500 },
             { ID = 40084, Type = RRS("Engineering"), Skill = 175, Cost = 2000 },
+            { ID = 7093, Type = RRS("Tailoring"), Skill = 140, Cost = 800 },
          },
       },
       {
@@ -2608,7 +2612,6 @@ RecipeRadar_RegionData = {
             { ID = 40082, Type = RRS("Engineering"), Skill = 125, Cost = 1500 },
          },
       },
-   },
       {
          Name = RRS("Vanessa Clang"),
          Team = "Neutral",
@@ -2619,6 +2622,19 @@ RecipeRadar_RegionData = {
             { ID = 81196, Type = RRS("Engineering"), Skill = 225, Cost = 35000 },
          },
       },
+      {
+         Name = RRS("Karey Gozzleratch"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.59, y = 0.256 },
+         },
+         Recipes = {
+            { ID = 6272, Type = RRS("Tailoring"), Skill = 70, Cost = 300 },
+            { ID = 10311, Type = RRS("Tailoring"), Skill = 220, Cost = 3000 },
+            { ID = 6275, Type = RRS("Tailoring"), Skill = 115, Cost = 800 },
+         },
+      },
+   },
 },
 
 [RRS("Mulgore")] = {
@@ -2890,6 +2906,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5640, Type = RRS("Alchemy"), Skill = 60, Cost = 100 },
+            { ID = 6272, Type = RRS("Tailoring"), Skill = 70, Cost = 300 },
          },
       },
       {
@@ -3284,6 +3301,8 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 21738, Type = RRS("Enchanting"), Skill = 225, Cost = 3500 },
             { ID = 21737, Type = RRS("Enchanting"), Skill = 275, Cost = 16000 },
+            { ID = 21723, Type = RRS("Tailoring"), Skill = 250, Cost = 1250 },
+            { ID = 21722, Type = RRS("Tailoring"), Skill = 250, Cost = 1250 },
          },
       },
    },
@@ -3429,6 +3448,7 @@ RecipeRadar_RegionData = {
             { ID = 62003, Type = RRS("Leatherworking"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 8 },
             { ID = 62006, Type = RRS("Leatherworking"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 8 },
             { ID = 62007, Type = RRS("Leatherworking"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 8 },
+            { ID = 62005, Type = RRS("Tailoring"), Skill = 300, Cost = 120000, Faction = RRS("Thorium Brotherhood"), Level = 8 },
          },
       },
       {
@@ -3592,6 +3612,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 6325, Type = RRS("Cooking"), Skill = 1, Cost = 40 },
             { ID = 6328, Type = RRS("Cooking"), Skill = 50, Cost = 400 },
+            { ID = 6270, Type = RRS("Tailoring"), Skill = 55, Cost = 200 },
          },
       },
       {
@@ -3625,6 +3646,7 @@ RecipeRadar_RegionData = {
             { ID = 5485, Type = RRS("Enchanting"), Skill = 20, Cost = 300 },
             { ID = 20758, Type = RRS("Enchanting"), Skill = 45, Cost = 500 },
             { ID = 20752, Type = RRS("Enchanting"), Skill = 150, Cost = 750 },
+            { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
          },
       },
       {
@@ -3658,6 +3680,18 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 8388, Type = RRS("Leatherworking"), Skill = 230, Cost = 5000 },
             { ID = 7451, Type = RRS("Leatherworking"), Skill = 190, Cost = 2800 },
+         },
+      },
+      {
+         Name = RRS("Lyrei Silverbrook"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.618, y = 0.47 },
+         },
+         Recipes = {
+            { ID = 6272, Type = RRS("Tailoring"), Skill = 70, Cost = 300 },
+            { ID = 10311, Type = RRS("Tailoring"), Skill = 220, Cost = 3000 },
+            { ID = 6275, Type = RRS("Tailoring"), Skill = 115, Cost = 800 },
          },
       },
    },
@@ -3702,6 +3736,17 @@ RecipeRadar_RegionData = {
             { ID = 21099, Type = RRS("Cooking"), Skill = 80, Cost = 500 },
             { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
             { ID = 19670, Type = RRS("Cooking"), Skill = 175, Cost = 2000 },
+         },
+      },
+      {
+         Name = RRS("Alison Swift"),
+         Team = "Alliance",
+         Coordinates = {
+            { x = 0.341, y = 0.592 },
+         },
+         Recipes = {
+            { ID = 5772, Type = RRS("Tailoring"), Skill = 115, Cost = 500 },
+            { ID = 6275, Type = RRS("Tailoring"), Skill = 115, Cost = 800 },
          },
       },
    },
@@ -3819,6 +3864,7 @@ RecipeRadar_RegionData = {
             { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
             { ID = 11163, Type = RRS("Enchanting"), Skill = 170, Cost = 3000 },
             { ID = 5788, Type = RRS("Leatherworking"), Skill = 170, Cost = 650 },
+            { ID = 4355, Type = RRS("Tailoring"), Skill = 200, Cost = 1500 },
          },
       },
    },
@@ -3961,6 +4007,8 @@ RecipeRadar_RegionData = {
             { ID = 6892, Type = RRS("Cooking"), Skill = 40, Cost = 250 },
             { ID = 5786, Type = RRS("Leatherworking"), Skill = 90, Cost = 550 },
             { ID = 5787, Type = RRS("Leatherworking"), Skill = 95, Cost = 600 },
+            { ID = 6272, Type = RRS("Tailoring"), Skill = 70, Cost = 300 },
+            { ID = 5771, Type = RRS("Tailoring"), Skill = 70, Cost = 200 },
          },
       },
    },
@@ -4005,6 +4053,7 @@ RecipeRadar_RegionData = {
             { ID = 20758, Type = RRS("Enchanting"), Skill = 45, Cost = 500 },
             { ID = 20752, Type = RRS("Enchanting"), Skill = 150, Cost = 750 },
             { ID = 20753, Type = RRS("Enchanting"), Skill = 200, Cost = 40000 },
+            { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
          },
       },
       {

@@ -23,7 +23,7 @@ minimap to open Recipe Radar or use the slash command, '/rrdr'.
   - [x] Engineering
   - [x] First Aid
   - [x] Leatherworking
-  - [ ] Tailoring
+  - [x] Tailoring
   - [ ] Disguise
   - [ ] Jewelcrafting
 - [ ] Replace all changed zone textures
