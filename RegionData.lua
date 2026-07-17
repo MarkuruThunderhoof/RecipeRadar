@@ -9,8 +9,8 @@ RecipeRadar_RegionData = {
    IsCity = true,
    Continent = 2,
    MapFile = "Stormwind-City",
-   MapScale = 0.03819701270887,
-   MapOffset = { x = 0.41531450060561, y = 0.67097280492581 },
+   MapScale = 0.04936107464768,
+   MapOffset = { x = 0.40560001015961, y = 0.65891224597659 },
    Vendors = {
       {
          Name = RRS("Alexandra Bolero"),
@@ -179,8 +179,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Redridge-Mountains",
-   MapScale = 0.06170112311456,
-   MapOffset = { x = 0.49917278340928, y = 0.68359285304999 },
+   MapScale = 0.06168653626152,
+   MapOffset = { x = 0.49917271813458, y = 0.68359285243278 },
    Vendors = {
       {
          Name = RRS("Amy Davenport"),
@@ -221,8 +221,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Arathi-Highlands",
-   MapScale = 0.10227310921644,
-   MapOffset = { x = 0.47916793249546, y = 0.32386170078419 },
+   MapScale = 0.10227301779940,
+   MapOffset = { x = 0.47916811683372, y = 0.32386157636216 },
    Vendors = {
       {
          Name = RRS("Androd Fadran"),
@@ -411,8 +411,8 @@ RecipeRadar_RegionData = {
    IsCity = true,
    Continent = 2,
    MapFile = "Ironforge",
-   MapScale = 0.02248317426784,
-   MapOffset = { x = 0.47481923366335, y = 0.51289242617182 },
+   MapScale = 0.02247229007330,
+   MapOffset = { x = 0.47481924213930, y = 0.51289237818619 },
    Vendors = {
       {
          Name = RRS("Bombus Finespindle"),
@@ -543,8 +543,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Feralas",
-   MapScale = 0.18885970960818,
-   MapOffset = { x = 0.31589651244686, y = 0.61820581746798 },
+   MapScale = 0.18885962624672,
+   MapOffset = { x = 0.31589645475735, y = 0.61820594915285 },
    Vendors = {
       {
          Name = RRS("Brienna Starglow"),
@@ -667,8 +667,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Stranglethorn-Vale",
-   MapScale = 0.18128603034401,
-   MapOffset = { x = 0.39145470225916, y = 0.79412224886668 },
+   MapScale = 0.18128609435598,
+   MapOffset = { x = 0.39145479870576, y = 0.79412228529507 },
    Vendors = {
       {
          Name = RRS("Corporal Bluth"),
@@ -933,8 +933,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Ashenvale",
-   MapScale = 0.15670371525706,
-   MapOffset = { x = 0.41757282062541, y = 0.33126468682991 },
+   MapScale = 0.15668961695017,
+   MapOffset = { x = 0.41757279130014, y = 0.33126458855958 },
    Vendors = {
       {
          Name = RRS("Dalria"),
@@ -1016,8 +1016,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Duskwood",
-   MapScale = 0.07670475476181,
-   MapOffset = { x = 0.43087243362495, y = 0.73224350550454 },
+   MapScale = 0.07670476364757,
+   MapOffset = { x = 0.43087252562083, y = 0.73224369734103 },
    Vendors = {
       {
          Name = RRS("Danielle Zipstitch"),
@@ -1068,8 +1068,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Westfall",
-   MapScale = 0.09943208435841,
-   MapOffset = { x = 0.36884571674582, y = 0.71874918595783 },
+   MapScale = 0.09943202924197,
+   MapOffset = { x = 0.36884564825595, y = 0.71874920216247 },
    Vendors = {
       {
          Name = RRS("Defias Profiteer"),
@@ -1125,8 +1125,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Loch-Modan",
-   MapScale = 0.07839152145224,
-   MapOffset = { x = 0.51118749188138, y = 0.50940913489577 },
+   MapScale = 0.07837664529188,
+   MapOffset = { x = 0.51118752610994, y = 0.50940911968113 },
    Vendors = {
       {
          Name = RRS("Drac Roughcut"),
@@ -1189,8 +1189,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Elwynn-Forest",
-   MapScale = 0.09860350595046,
-   MapOffset = { x = 0.41092682316676, y = 0.65651531970162 },
+   MapScale = 0.09861853017410,
+   MapOffset = { x = 0.41092672977868, y = 0.65651522213139 },
    Vendors = {
       {
          Name = RRS("Drake Lindgren"),
@@ -1221,8 +1221,8 @@ RecipeRadar_RegionData = {
    IsCity = true,
    Continent = 1,
    MapFile = "Darnassus",
-   MapScale = 0.02876626176374,
-   MapOffset = { x = 0.38392150175204, y = 0.10441296545475 },
+   MapScale = 0.02876273063310,
+   MapOffset = { x = 0.38392152818170, y = 0.10441279807493 },
    Vendors = {
       {
          Name = RRS("Elynna"),
@@ -1303,8 +1303,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Wetlands",
-   MapScale = 0.11745423014662,
-   MapOffset = { x = 0.46561438951659, y = 0.40971063365152 },
+   MapScale = 0.11746901199052,
+   MapOffset = { x = 0.46561438540143, y = 0.40971082216940 },
    Vendors = {
       {
          Name = RRS("Fradd Swiftgear"),
@@ -1390,8 +1390,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "The-Hinterlands",
-   MapScale = 0.10937523495111,
-   MapOffset = { x = 0.49929119700867, y = 0.25567971676068 },
+   MapScale = 0.10937538185011,
+   MapOffset = { x = 0.49929118562736, y = 0.25567956281448 },
    Vendors = {
       {
          Name = RRS("Gigget Zipcoil"),
@@ -1462,8 +1462,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Dun-Morogh",
-   MapScale = 0.13991525534426,
-   MapOffset = { x = 0.40335096278072, y = 0.48339696712179 },
+   MapScale = 0.13991530612878,
+   MapOffset = { x = 0.40335114265627, y = 0.48339683331094 },
    Vendors = {
       {
          Name = RRS("Gretta Ganter"),
@@ -1514,8 +1514,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Darkshore",
-   MapScale = 0.17799008894522,
-   MapOffset = { x = 0.38383175154516, y = 0.18206216123156 },
+   MapScale = 0.17798993887182,
+   MapOffset = { x = 0.38383158710852, y = 0.18206227793117 },
    Vendors = {
       {
          Name = RRS("Heldan Galesong"),
@@ -1591,8 +1591,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Dustwallow-Marsh",
-   MapScale = 0.14266384095509,
-   MapOffset = { x = 0.49026338351379, y = 0.60461876174686 },
+   MapScale = 0.14266380030126,
+   MapOffset = { x = 0.49026338291590, y = 0.60461864854932 },
    Vendors = {
       {
          Name = RRS("Helenia Olden"),
@@ -1662,8 +1662,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Desolace",
-   MapScale = 0.12219839120669,
-   MapOffset = { x = 0.34873187115693, y = 0.50331046935371 },
+   MapScale = 0.12218400440844,
+   MapOffset = { x = 0.34873194564149, y = 0.50331062828126 },
    Vendors = {
       {
          Name = RRS("Janet Hommers"),
@@ -1787,8 +1787,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Western-Plaguelands",
-   MapScale = 0.12215946583965,
-   MapOffset = { x = 0.44270955019641, y = 0.17471356786018 },
+   MapScale = 0.12215950767974,
+   MapOffset = { x = 0.44270949103943, y = 0.17471342924494 },
    Vendors = {
       {
          Name = RRS("Leonard Porter"),
@@ -1854,8 +1854,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Hillsbrad-Foothills",
-   MapScale = 0.09090931690055,
-   MapOffset = { x = 0.4242436124746, y = 0.30113436864162 },
+   MapScale = 0.09090927825539,
+   MapOffset = { x = 0.42424352882635, y = 0.30113438113099 },
    Vendors = {
       {
          Name = RRS("Lindea Rabonne"),
@@ -1985,8 +1985,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Felwood",
-   MapScale = 0.15625084006464,
-   MapOffset = { x = 0.41995800144849, y = 0.23097545880609 },
+   MapScale = 0.15625076149223,
+   MapOffset = { x = 0.41915785261399, y = 0.23097558685323 },
    Vendors = {
       {
          Name = RRS("Malygen"),
@@ -2077,8 +2077,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Teldrassil",
-   MapScale = 0.13836131003639,
-   MapOffset = { x = 0.36011098024729, y = 0.0394832297921 },
+   MapScale = 0.13834699555943,
+   MapOffset = { x = 0.36011108031031, y = 0.03948324649509 },
    Vendors = {
       {
          Name = RRS("Nessa Shadowsong"),
@@ -2111,8 +2111,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Blasted-Lands",
-   MapScale = 0.09517074521836,
-   MapOffset = { x = 0.48982154167011, y = 0.7684651998651 },
+   MapScale = 0.09517065309845,
+   MapOffset = { x = 0.48982155780581, y = 0.76846539100193 },
    Vendors = {
       {
          Name = RRS("Nina Lightbrew"),
@@ -2131,8 +2131,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Tirisfal-Glades",
-   MapScale = 0.12837403412087,
-   MapOffset = { x = 0.36837217317549, y = 0.15464954319582 },
+   MapScale = 0.12837394499870,
+   MapOffset = { x = 0.36837234702313, y = 0.15464959059062 },
    Vendors = {
       {
          Name = RRS("Abigail Shiel"),
@@ -2213,8 +2213,8 @@ RecipeRadar_RegionData = {
    IsCity = true,
    Continent = 2,
    MapFile = "Undercity",
-   MapScale = 0.02727719546939,
-   MapOffset = { x = 0.4297399924566, y = 0.23815358517831 },
+   MapScale = 0.02726619913880,
+   MapOffset = { x = 0.42974013646889, y = 0.23815338068690 },
    Vendors = {
       {
          Name = RRS("Algernon"),
@@ -2347,8 +2347,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Silverpine-Forest",
-   MapScale = 0.11931848806212,
-   MapOffset = { x = 0.3565350229009, y = 0.24715695496522 },
+   MapScale = 0.11931851988092,
+   MapOffset = { x = 0.35653509983632, y = 0.24715681136486 },
    Vendors = {
       {
          Name = RRS("Andrew Hilbert"),
@@ -2422,8 +2422,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Swamp-of-Sorrows",
-   MapScale = 0.06516347991404,
-   MapOffset = { x = 0.5176979527207, y = 0.72815974701615 },
+   MapScale = 0.06516360625758,
+   MapOffset = { x = 0.51769805367769, y = 0.72815960150477 },
    Vendors = {
       {
          Name = RRS("Banalash"),
@@ -2484,8 +2484,8 @@ RecipeRadar_RegionData = {
    IsCity = true,
    Continent = 1,
    MapFile = "Orgrimmar",
-   MapScale = 0.03811449638057,
-   MapOffset = { x = 0.56378554142668, y = 0.42905218646258 },
+   MapScale = 0.03812166551086,
+   MapOffset = { x = 0.56378550320534, y = 0.42905207734879 },
    Vendors = {
       {
          Name = RRS("Borya"),
@@ -2630,8 +2630,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Durotar",
-   MapScale = 0.1436829497008,
-   MapOffset = { x = 0.517097827091, y = 0.44802818134926 },
+   MapScale = 0.14368282494064,
+   MapOffset = { x = 0.51709776019461, y = 0.44802840017058 },
    Vendors = {
       {
          Name = RRS("Grimtak"),
@@ -2714,8 +2714,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Mulgore",
-   MapScale = 0.13960673216274,
-   MapOffset = { x = 0.40811854919226, y = 0.53286226907346 },
+   MapScale = 0.13960671622436,
+   MapOffset = { x = 0.40811839360692, y = 0.53286241908834 },
    Vendors = {
       {
          Name = RRS("Harn Longcast"),
@@ -2745,8 +2745,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "The-Barrens",
-   MapScale = 0.27539211944292,
-   MapOffset = { x = 0.3924934733345, y = 0.45601063260257 },
+   MapScale = 0.27537801644085,
+   MapOffset = { x = 0.39249331648330, y = 0.45601064278449 },
    Vendors = {
       {
          Name = RRS("Hula'mahi"),
@@ -2907,8 +2907,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Thousand-Needles",
-   MapScale = 0.1195658287792,
-   MapOffset = { x = 0.47554411191734, y = 0.6834235638965 },
+   MapScale = 0.11956578449700,
+   MapOffset = { x = 0.47554401329475, y = 0.68342369438226 },
    Vendors = {
       {
          Name = RRS("Jandia"),
@@ -2948,8 +2948,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Stonetalon-Mountains",
-   MapScale = 0.13272833611061,
-   MapOffset = { x = 0.37556627748617, y = 0.40285135292988 },
+   MapScale = 0.16349271228847,
+   MapOffset = { x = 0.35645834623703, y = 0.38147898831450 },
    Vendors = {
       {
          Name = RRS("Jeeda"),
@@ -3020,8 +3020,8 @@ RecipeRadar_RegionData = {
    IsCity = true,
    Continent = 1,
    MapFile = "Thunder-Bluff",
-   MapScale = 0.02836291430658,
-   MapOffset = { x = 0.44972878210917, y = 0.55638479002362 },
+   MapScale = 0.02836285287736,
+   MapOffset = { x = 0.44972866383059, y = 0.55638482880163 },
    Vendors = {
       {
          Name = RRS("Mahu"),
@@ -3105,8 +3105,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Silithus",
-   MapScale = 0.09468465888932,
-   MapOffset = { x = 0.39731975488374, y = 0.76460608512626 },
+   MapScale = 0.09467047203838,
+   MapOffset = { x = 0.39481452196250, y = 0.76460593479093 },
    Vendors = {
       {
          Name = RRS("Aendel Windspear"),
@@ -3196,8 +3196,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Tanaris",
-   MapScale = 0.18750104661175,
-   MapOffset = { x = 0.46971301480866, y = 0.76120931364891 },
+   MapScale = 0.18750099141189,
+   MapOffset = { x = 0.46971300537967, y = 0.76120930991274 },
    Vendors = {
       {
          Name = RRS("Alchemist Pestlezugg"),
@@ -3320,8 +3320,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Alterac-Mountains",
-   MapScale = 0.07954563533736,
-   MapOffset = { x = 0.43229874660542, y = 0.25425926375262 },
+   MapScale = 0.07954575209663,
+   MapOffset = { x = 0.43229298418591, y = 0.25425924815807 },
    Vendors = {
       {
          Name = RRS("Bro'kin"),
@@ -3350,8 +3350,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Moonglade",
-   MapScale = 0.06292695969921,
-   MapOffset = { x = 0.50130287793373, y = 0.17560823085517 },
+   MapScale = 0.06274102255711,
+   MapOffset = { x = 0.50130284192296, y = 0.17560817318782 },
    Vendors = {
       {
          Name = RRS("Darnall"),
@@ -3397,8 +3397,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Winterspring",
-   MapScale = 0.19293573573141,
-   MapOffset = { x = 0.47237382938446, y = 0.17390990272233 },
+   MapScale = 0.19293573517032,
+   MapOffset = { x = 0.47237388900848, y = 0.17391005977749 },
    Vendors = {
       {
          Name = RRS("Evie Whirlbrew"),
@@ -3458,8 +3458,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Eastern-Plaguelands",
-   MapScale = 0.10996723642661,
-   MapOffset = { x = 0.51663255550387, y = 0.15624753972085 },
+   MapScale = 0.10998191783295,
+   MapOffset = { x = 0.51663270975387, y = 0.15624760648742 },
    Vendors = {
    },
 },
@@ -3468,8 +3468,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Badlands",
-   MapScale = 0.07066771883566,
-   MapOffset = { x = 0.51361415033147, y = 0.56915717993261 },
+   MapScale = 0.07066795257470,
+   MapOffset = { x = 0.51361423530307, y = 0.56915701977276 },
    Vendors = {
       {
          Name = RRS("Jazzrik"),
@@ -3553,8 +3553,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 1,
    MapFile = "Un-Goro-Crater",
-   MapScale = 0.10054401185671,
-   MapOffset = { x = 0.4492759445152, y = 0.76494573629405 },
+   MapScale = 0.10054387637241,
+   MapOffset = { x = 0.44927594317980, y = 0.76494587591902 },
    Vendors = {
       {
          Name = RRS("Nergal"),
@@ -3591,8 +3591,8 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Burning-Steppes",
-   MapScale = 0.08321525646393,
-   MapOffset = { x = 0.04621224670174, y = 0.61780780524905 },
+   MapScale = 0.08320023831309,
+   MapOffset = { x = 0.46212261491968, y = 0.61780786468101 },
    Vendors = {
       {
          Name = RRS("Yuka Screwspigot"),
@@ -3768,7 +3768,7 @@ RecipeRadar_RegionData = {
    IsCity = false,
    Continent = 2,
    MapFile = "Northwind",
-   MapScale = 0.0919959992864,
+   MapScale = 0.09199599928649,
    MapOffset = { x = 0.39039883202794, y = 0.58779712613903 },
    Vendors = {
       {
