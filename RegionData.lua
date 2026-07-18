@@ -3501,6 +3501,9 @@ RecipeRadar_RegionData = {
       {
          Name = RRS("Lokhtos Darkbargainer"),
          Team = "Neutral",
+         Coordinates = {
+            { x = 0.533, y = 0.47 },
+         },
          Recipes = {
             { ID = 19208, Type = RRS("Blacksmithing"), Skill = 300, Cost = 70000, Faction = RRS("Thorium Brotherhood"), Level = 6, Specialty = RRS("Weaponsmith") },
             { ID = 19209, Type = RRS("Blacksmithing"), Skill = 300, Cost = 70000, Faction = RRS("Thorium Brotherhood"), Level = 8, Specialty = RRS("Weaponsmith") },
@@ -3542,6 +3545,9 @@ RecipeRadar_RegionData = {
       {
          Name = RRS("Plugger Spazzring"),
          Team = "Neutral",
+         Coordinates = {
+            { x = 0.526, y = 0.493 },
+         },
          Recipes = {
             { ID = 13483, Type = RRS("Alchemy"), Skill = 275, Cost = 15000 },
             { ID = 15759, Type = RRS("Leatherworking"), Skill = 290, Cost = 22000, Specialty = RRS("Dragonscale Leatherworking") },
