@@ -2067,6 +2067,9 @@ RecipeRadar_RegionData = {
       {
          Name = RRS("Namdo Bizzfizzle"),
          Team = "Alliance",
+         Coordinates = {
+            { x = 0.6, y = 0.365 },
+         },
          Recipes = {
             { ID = 14639, Type = RRS("Engineering"), Skill = 140, Cost = 1500 },
          },
