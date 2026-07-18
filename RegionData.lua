@@ -3584,6 +3584,9 @@ RecipeRadar_RegionData = {
       {
          Name = RRS("Shen'dralar Provisioner"),
          Team = "Neutral",
+         Coordinates = {
+            { x = 0.243, y = 0.624 },
+         },
          Recipes = {
             { ID = 18487, Type = RRS("Tailoring"), Skill = 300, Cost = 40000 },
             { ID = 55045, Type = RRS("Alchemy"), Skill = 300, Cost = 30000 },
