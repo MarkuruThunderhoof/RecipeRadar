@@ -3953,10 +3953,14 @@ RecipeRadar_RegionData = {
 [RRS("Ruins of Ahn'Qiraj")] = {
    IsCity = false,
    Continent = 0,
+   MapFile = "Ruins-of-Ahn-Qiraj",
    Vendors = {
       {
          Name = RRS("Lieutenant General Andorov"),
          Team = "Neutral",
+         Coordinates = {
+            { x = 0.545, y = 0.38 },
+         },
          Recipes = {
             { ID = 22219, Type = RRS("Blacksmithing"), Skill = 300, Cost = 50000 },
             { ID = 22221, Type = RRS("Blacksmithing"), Skill = 300, Cost = 80000 },
