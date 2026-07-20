@@ -296,7 +296,8 @@ end
 -- the spellbook was already open.
 function RecipeRadar_SkillDB_ShowSpellbookFrame()
 
-   if (not SpellBookFrame:IsVisible()) then
+   local sbf = DF_SpellBookFrame or SpellBookFrame
+   if (not sbf:IsVisible()) then
       ToggleSpellBook(BOOKTYPE_SPELL)
       return true
    end
@@ -307,7 +308,8 @@ end
 -- Closes the spellbook if it's visible and need_close is true.
 function RecipeRadar_SkillDB_HideSpellbookFrame(need_close)
 
-   if (SpellBookFrame:IsVisible() and need_close) then
+   local sbf = DF_SpellBookFrame or SpellBookFrame
+   if (sbf:IsVisible() and need_close) then
       ToggleSpellBook(BOOKTYPE_SPELL)
    end
 
