@@ -7,7 +7,7 @@
    <Script file="MinimapButton.lua"/>
 
    
-         <Button name="RecipeRadarMinimapButton" parent="Minimap" enableMouse="true" hidden="false" frameStrata="LOW">
+         <Button name="RecipeRadarMinimapButton" parent="Minimap" enableMouse="true" hidden="false" frameStrata="HIGH">
             <Size>
                <AbsDimension x="32" y="32"/>
             </Size>
