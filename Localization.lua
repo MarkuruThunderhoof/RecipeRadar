@@ -132,6 +132,8 @@ if (GetLocale() == "sample") then
    RecipeRadar_Strings["Master Swordsmith"] = ""
    RecipeRadar_Strings["Tribal Leatherworking"] = ""
    RecipeRadar_Strings["Weaponsmith"] = ""
+   RecipeRadar_Strings["Gemology"] = ""
+   RecipeRadar_Strings["Goldsmith"] = ""
 
    -- continent names for alternate region selection
    RecipeRadar_Strings["Kalimdor"] = ""
@@ -631,6 +633,8 @@ if (GetLocale() == "ruRU") then
    RecipeRadar_Strings["Master Swordsmith"] = "Мастер ковки клинков"
    RecipeRadar_Strings["Tribal Leatherworking"] = "Кожевничество: традиции предков"
    RecipeRadar_Strings["Weaponsmith"] = "Оружейник"
+   --RecipeRadar_Strings["Gemology"] = ""
+   --RecipeRadar_Strings["Goldsmith"] = ""
 
    -- continent names for alternate region selection
    RecipeRadar_Strings["Kalimdor"] = "Калимдор"
@@ -1201,6 +1205,8 @@ if (GetLocale() == "deDE") then
    RecipeRadar_Strings["Tribal Leatherworking"] = "Stammeslederverarbeitung"
    RecipeRadar_Strings["Weaponsmith"] = "Waffenschmied"
    RecipeRadar_Strings["Gnomish Engineer"] = "Gnomen-Ingenieur"
+   RecipeRadar_Strings["Gemology"] = "Gemmologie"
+   RecipeRadar_Strings["Goldsmith"] = "Goldschmied"
    RecipeRadar_Strings["Eastern Kingdoms"] = "Lordaeron"
    RecipeRadar_Strings["Instances"] = "Instanzen"
 
@@ -1598,6 +1604,8 @@ if (GetLocale() == "esES") then
    RecipeRadar_Strings["Unmap Vendor"] = "Quitar a vendedor"
    RecipeRadar_Strings["Goblin Engineer"] = "Ingeniería goblin"
    RecipeRadar_Strings["Gnomish Engineer"] = "Ingeniería gnome"
+   RecipeRadar_Strings["Gemology"] = "Gemología"
+   RecipeRadar_Strings["Goldsmith"] = "Orfebre"
    RecipeRadar_Strings["Eastern Kingdoms"] = "Reinos del Este"
    RecipeRadar_Strings["Instances"] = "Instancias"
 

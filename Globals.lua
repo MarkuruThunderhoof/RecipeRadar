@@ -142,6 +142,8 @@ RecipeRadar_Specialties = {
    [RRS("Master Axesmith")] = RRS("Blacksmithing"),
    [RRS("Master Swordsmith")] = RRS("Blacksmithing"),
    [RRS("Master Hammersmith")] = RRS("Blacksmithing"),
+   [RRS("Gemology")] = RRS("Jewelcrafting"),
+   [RRS("Goldsmith")] = RRS("Jewelcrafting"),
 
 }
 
