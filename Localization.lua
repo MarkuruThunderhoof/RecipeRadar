@@ -106,6 +106,7 @@ if (GetLocale() == "sample") then
    -- faction names for recipe reputation requirements
    RecipeRadar_Strings["Argent Dawn"] = ""
    RecipeRadar_Strings["Cenarion Circle"] = ""
+   RecipeRadar_Strings["Draenei Exiles"] = ""
    RecipeRadar_Strings["Thorium Brotherhood"] = ""
    RecipeRadar_Strings["Timbermaw Hold"] = ""
    RecipeRadar_Strings["Zandalar Tribe"] = ""

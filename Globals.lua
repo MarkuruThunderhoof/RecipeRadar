@@ -154,6 +154,7 @@ RecipeRadar_Factions = {
    RRS("Thorium Brotherhood"),
    RRS("Timbermaw Hold"),
    RRS("Zandalar Tribe"),
+   RRS("Draenei Exiles"),
    
 }
 

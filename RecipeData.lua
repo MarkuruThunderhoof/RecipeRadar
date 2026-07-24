@@ -1799,6 +1799,17 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Stormwind City"), Vendor = RRS("Billibub Cogspinner"), Team = "Alliance" },
          },
       },
+      {
+         ID = 33145,
+         Type = RRS("Engineering"),
+         Skill = 300,
+         Cost = 130000,
+         Faction = RRS("Draenei Exiles"),
+         Level = 7,
+         Locations = {
+            { Region = RRS("Moonwhisper Coast"), Vendor = RRS("Mogh'ador"), Team = "Neutral" },
+         },
+      },
    },
 },
 

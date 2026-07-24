@@ -4254,6 +4254,26 @@ RecipeRadar_RegionData = {
    },
 },
 
+[RRS("Moonwhisper Coast")] = {
+   IsCity = false,
+   Continent = 1,
+   MapFile = "Moonwhisper",
+   MapScale = 0.21355411830870,
+   MapOffset = { x = 0.50056234898033, y = 0.10581173144794 },
+   Vendors = {
+      {
+         Name = RRS("Mogh'ador"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.61, y = 0.652 },
+         },
+         Recipes = {
+            { ID = 33145, Type = RRS("Engineering"), Skill = 300, Cost = 130000, Faction = RRS("Draenei Exiles"), Level = 7 },
+         },
+      },
+   },
+},
+
 }
 
 RecipeRadar_MaxVendorsByLocation = 20
