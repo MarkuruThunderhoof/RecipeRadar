@@ -107,6 +107,7 @@ if (GetLocale() == "sample") then
    RecipeRadar_Strings["Argent Dawn"] = ""
    RecipeRadar_Strings["Cenarion Circle"] = ""
    RecipeRadar_Strings["Draenei Exiles"] = ""
+   RecipeRadar_Strings["Earthen Ring"] = ""
    RecipeRadar_Strings["Gelkis Clan Centaur"] = ""
    RecipeRadar_Strings["Hydraxian Waterlords"] = ""
    RecipeRadar_Strings["Magram Clan Centaur"] = ""

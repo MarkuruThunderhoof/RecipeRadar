@@ -1074,6 +1074,17 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Searing Gorge"), Vendor = RRS("Master Smith Burninate"), Team = "Neutral" },
          },
       },
+      {
+         ID = 33134,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 100000,
+         Faction = RRS("Earthen Ring"),
+         Level = 8,
+         Locations = {
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Deechenu"), Team = "Neutral" },
+         },
+      },
    },
 },
 

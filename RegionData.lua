@@ -3017,6 +3017,16 @@ RecipeRadar_RegionData = {
             { ID = 7289, Type = RRS("Leatherworking"), Skill = 100, Cost = 650 },
          },
       },
+      {
+         Name = RRS("Deechenu"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.518, y = 0.689 },
+         },
+         Recipes = {
+            { ID = 33134, Type = RRS("Blacksmithing"), Skill = 300, Cost = 100000, Faction = RRS("Earthen Ring"), Level = 8 },
+         },
+      },
    },
 },
 
