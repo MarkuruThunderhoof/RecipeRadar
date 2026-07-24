@@ -3019,7 +3019,7 @@ RecipeRadar_RegionData = {
       },
       {
          Name = RRS("Deechenu"),
-         Team = "Neutral",
+         Team = "Horde",
          Coordinates = {
             { x = 0.518, y = 0.689 },
          },

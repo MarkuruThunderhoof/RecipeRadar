@@ -1082,7 +1082,7 @@ RecipeRadar_RecipeData = {
          Faction = RRS("Earthen Ring"),
          Level = 8,
          Locations = {
-            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Deechenu"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Deechenu"), Team = "Horde" },
          },
       },
    },
