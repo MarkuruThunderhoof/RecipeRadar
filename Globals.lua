@@ -151,10 +151,14 @@ RecipeRadar_Factions = {
 
    RRS("Argent Dawn"),
    RRS("Cenarion Circle"),
+   RRS("Draenei Exiles"),
+   RRS("Gelkis Clan Centaur"),
+   RRS("Hydraxian Waterlords"),
+   RRS("Magram Clan Centaur"),
+   RRS("Shen'dralar"),
    RRS("Thorium Brotherhood"),
    RRS("Timbermaw Hold"),
    RRS("Zandalar Tribe"),
-   RRS("Draenei Exiles"),
    
 }
 
