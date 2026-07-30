@@ -1469,6 +1469,17 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Desolace"), Vendor = RRS("Deathcaller Aisha"), Team = "Neutral" },
          },
       },
+      {
+         ID = 33144,
+         Type = RRS("Enchanting"),
+         Skill = 300,
+         Cost = 130000,
+         Faction = RRS("Draenei Exiles"),
+         Level = 8,
+         Locations = {
+            { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Zad'ran"), Team = "Neutral" },
+         },
+      },
    },
 },
 

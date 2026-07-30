@@ -514,6 +514,7 @@ if (GetLocale() == "sample") then
    RecipeRadar_Strings["Yavon Sharplight"] = ""
    RecipeRadar_Strings["Yonada"] = ""
    RecipeRadar_Strings["Yuka Screwspigot"] = ""
+   RecipeRadar_Strings["Zad'ran"] = ""
    RecipeRadar_Strings["Zan Shivsproket"] = ""
    RecipeRadar_Strings["Zannok Hidepiercer"] = ""
    RecipeRadar_Strings["Zansoa"] = ""

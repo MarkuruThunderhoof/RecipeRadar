@@ -2481,6 +2481,16 @@ RecipeRadar_RegionData = {
             { ID = 16110, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
          },
       },
+      {
+         Name = RRS("Zad'ran"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.268, y = 0.325 },
+         },
+         Recipes = {
+            { ID = 33144, Type = RRS("Enchanting"), Skill = 300, Cost = 130000, Faction = RRS("Draenei Exiles"), Level = 8 },
+         },
+      },
    },
 },
 
