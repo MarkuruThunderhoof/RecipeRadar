@@ -3304,18 +3304,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Kodiak Killbrew"),
-         Team = "Neutral",
-         Coordinates = {
-            { x = 0.315, y = 0.365 },
-         },
-         Recipes = {
-            { ID = 3682, Type = RRS("Cooking"), Skill = 130, Cost = 1600 },
-            { ID = 12228, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
-            { ID = 12231, Type = RRS("Cooking"), Skill = 175, Cost = 3000 },
-         },
-      },
-      {
          Name = RRS("Innkeeper Fizzgrimble"),
          Team = "Neutral",
          Coordinates = {
@@ -3596,6 +3584,19 @@ RecipeRadar_RegionData = {
             { ID = 15758, Type = RRS("Leatherworking"), Skill = 290, Cost = 22000, Specialty = RRS("Tribal Leatherworking") },
          },
       },
+      {
+         Name = RRS("Kodiak Killbrew"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.79, y = 0.643 },
+         },
+         Recipes = {
+            { ID = 3682, Type = RRS("Cooking"), Skill = 130, Cost = 1600 },
+            { ID = 12228, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
+            { ID = 12231, Type = RRS("Cooking"), Skill = 175, Cost = 3000 },
+         },
+      },
+
    },
 },
 

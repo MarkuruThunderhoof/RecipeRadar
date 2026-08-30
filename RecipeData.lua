@@ -3424,7 +3424,7 @@ RecipeRadar_RecipeData = {
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
             { Region = RRS("Arathi Highlands"), Vendor = RRS("Keena"), Team = "Horde" },
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Nerrist"), Team = "Horde" },
-            { Region = RRS("Tanaris"), Vendor = RRS("Kodiak Killbrew"), Team = "Neutral" },
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Kodiak Killbrew"), Team = "Neutral" },
          },
       },
       {
