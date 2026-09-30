@@ -4098,7 +4098,7 @@ RecipeRadar_RecipeData = {
          Locations = {
             { Region = RRS("Tirisfal Glades"), Vendor = RRS("Argent Quartermaster Hasana"), Team = "Neutral" },
             { Region = RRS("Western Plaguelands"), Vendor = RRS("Argent Quartermaster Lightspark"), Team = "Neutral" },
-            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Quartermaster Miranda Breechlock"), Team = "Neutral" },
          },
       },
    },

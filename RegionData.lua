@@ -3474,6 +3474,26 @@ RecipeRadar_RegionData = {
    MapOffset = { x = 0.51663270975387, y = 0.15624760648742 },
    Vendors = {
       {
+         Name = RRS("Quartermaster Miranda Breechlock"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.816, y = 0.600 },
+         },
+         Recipes = {
+            { ID = 13482, Type = RRS("Alchemy"), Skill = 275, Cost = 15000, Faction = RRS("Argent Dawn"), Level = 6 },
+            { ID = 19203, Type = RRS("Blacksmithing"), Skill = 290, Cost = 22000, Faction = RRS("Argent Dawn"), Level = 6 },
+            { ID = 19205, Type = RRS("Blacksmithing"), Skill = 300, Cost = 40000, Faction = RRS("Argent Dawn"), Level = 7 },
+            { ID = 19447, Type = RRS("Enchanting"), Skill = 300, Cost = 60000, Faction = RRS("Argent Dawn"), Level = 7 },
+            { ID = 19446, Type = RRS("Enchanting"), Skill = 290, Cost = 30000, Faction = RRS("Argent Dawn"), Level = 6 },
+            { ID = 19328, Type = RRS("Leatherworking"), Skill = 290, Cost = 22000, Faction = RRS("Argent Dawn"), Level = 6 },
+            { ID = 19329, Type = RRS("Leatherworking"), Skill = 300, Cost = 40000, Faction = RRS("Argent Dawn"), Level = 7 },
+            { ID = 19216, Type = RRS("Tailoring"), Skill = 290, Cost = 22000, Faction = RRS("Argent Dawn"), Level = 6 },
+            { ID = 19217, Type = RRS("Tailoring"), Skill = 300, Cost = 40000, Faction = RRS("Argent Dawn"), Level = 7 },
+            { ID = 19442, Type = RRS("First Aid"), Skill = 300, Cost = 100000, Faction = RRS("Argent Dawn"), Level = 6 },
+            { ID = 70216, Type = RRS("Jewelcrafting"), Skill = 285, Cost = 30000, Faction = RRS("Argent Dawn"), Level = 6 },
+         },
+      },
+      {
          Name = RRS("Jase Farlane"),
          Team = "Neutral",
          Coordinates = {
@@ -4192,26 +4212,6 @@ RecipeRadar_RegionData = {
    MapScale = 0.08978718621054,
    MapOffset = { x = 0.56960388459906, y = 0.18663121540532 },
    Vendors = {
-      {
-         Name = RRS("Quartermaster Miranda Breechlock"),
-         Team = "Neutral",
-         Coordinates = {
-            { x = 0.41, y = 0.396 },
-         },
-         Recipes = {
-            { ID = 13482, Type = RRS("Alchemy"), Skill = 275, Cost = 15000, Faction = RRS("Argent Dawn"), Level = 6 },
-            { ID = 19203, Type = RRS("Blacksmithing"), Skill = 290, Cost = 22000, Faction = RRS("Argent Dawn"), Level = 6 },
-            { ID = 19205, Type = RRS("Blacksmithing"), Skill = 300, Cost = 40000, Faction = RRS("Argent Dawn"), Level = 7 },
-            { ID = 19447, Type = RRS("Enchanting"), Skill = 300, Cost = 60000, Faction = RRS("Argent Dawn"), Level = 7 },
-            { ID = 19446, Type = RRS("Enchanting"), Skill = 290, Cost = 30000, Faction = RRS("Argent Dawn"), Level = 6 },
-            { ID = 19328, Type = RRS("Leatherworking"), Skill = 290, Cost = 22000, Faction = RRS("Argent Dawn"), Level = 6 },
-            { ID = 19329, Type = RRS("Leatherworking"), Skill = 300, Cost = 40000, Faction = RRS("Argent Dawn"), Level = 7 },
-            { ID = 19216, Type = RRS("Tailoring"), Skill = 290, Cost = 22000, Faction = RRS("Argent Dawn"), Level = 6 },
-            { ID = 19217, Type = RRS("Tailoring"), Skill = 300, Cost = 40000, Faction = RRS("Argent Dawn"), Level = 7 },
-            { ID = 19442, Type = RRS("First Aid"), Skill = 300, Cost = 100000, Faction = RRS("Argent Dawn"), Level = 6 },
-            { ID = 70216, Type = RRS("Jewelcrafting"), Skill = 285, Cost = 30000, Faction = RRS("Argent Dawn"), Level = 6 },
-         },
-      },
       {
          Name = RRS("Daron Truthkeeper"),
          Team = "Neutral",
