@@ -2181,7 +2181,7 @@ RecipeRadar_RecipeData = {
          Skill = 290,
          Cost = 22000,
          Locations = {
-            { Region = RRS("Scarlet Enclave"), Vendor = RRS("Jase Farlane"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Jase Farlane"), Team = "Neutral" },
             { Region = RRS("Hyjal"), Vendor = RRS("Relthan Highmoon"), Team = "Neutral" },
          },
       },

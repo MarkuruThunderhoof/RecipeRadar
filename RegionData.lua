@@ -3473,6 +3473,16 @@ RecipeRadar_RegionData = {
    MapScale = 0.10998191783295,
    MapOffset = { x = 0.51663270975387, y = 0.15624760648742 },
    Vendors = {
+      {
+         Name = RRS("Jase Farlane"),
+         Team = "Neutral",
+         Coordinates = {
+            { x = 0.806, y = 0.576 },
+         },
+         Recipes = {
+            { ID = 15756, Type = RRS("Leatherworking"), Skill = 290, Cost = 22000 },
+         },
+      },
    },
 },
 
@@ -4210,16 +4220,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 7995, Type = RRS("Blacksmithing"), Skill = 215, Cost = 6000 },
-         },
-      },
-      {
-         Name = RRS("Jase Farlane"),
-         Team = "Neutral",
-         Coordinates = {
-            { x = 0.397, y = 0.367 },
-         },
-         Recipes = {
-            { ID = 15756, Type = RRS("Leatherworking"), Skill = 290, Cost = 22000 },
          },
       },
    },
