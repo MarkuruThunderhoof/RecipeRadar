@@ -1,4 +1,3 @@
-
 -- RecipeRadar.lua: main event code and general utility functions
 -- $Id: RecipeRadar.lua 464 2006-09-18 18:05:57Z jnmiller $
 
@@ -246,21 +245,36 @@ end
 -- Parses the input for a couple of known message formats to gain information
 -- about changes in the character's skills.
 function RecipeRadar_ParseChatMessage(msg)
-   
-   -- messages of the form 'Your skill in %s has increased to %d.'
-   local start, _, prof, rank =
-         string.find(msg, RecipeRadar_ConvertFormat(ERR_SKILL_UP_SI))
-   if (start) then
-      RecipeRadar_SkillDB_SetRank(prof, rank)
-   end
+  -- RecipeRadar_Print("DEBUG msg: " .. msg) -- décommente pour voir le format réel
 
-   -- messages of the form 'You have unlearned %s.'
-   start, _, prof =
-         string.find(msg, RecipeRadar_ConvertFormat(ERR_SPELL_UNLEARNED_S))
-   if (prof) then
-      RecipeRadar_SkillDB_GetPlayerProfessions()[prof] = nil
-   end
-   
+  -- messages of the form 'Your skill in %s has increased to %d.'
+  local start, _, prof, rank =
+    string.find(msg, RecipeRadar_ConvertFormat(ERR_SKILL_UP_SI))
+  if (start) then
+    RecipeRadar_SkillDB_SetRank(prof, rank)
+  end
+
+  -- messages of the form 'You have unlearned %s.'
+  start, _, prof =
+    string.find(msg, RecipeRadar_ConvertFormat(ERR_SPELL_UNLEARNED_S))
+  if (prof) then
+    RecipeRadar_SkillDB_GetPlayerProfessions()[prof] = nil
+  end
+
+  -- any "You have learned ..." message: let the tooltips tell us which
+  -- recipe is now known. Which global exists depends on the client, so
+  -- nil entries are simply skipped by the loop.
+  for _, fmt in { ERR_LEARN_RECIPE_S, ERR_LEARN_ABILITY_S, ERR_LEARN_SPELL_S } do
+    if (string.find(msg, RecipeRadar_ConvertFormat(fmt))) then
+      if (RecipeRadar_SkillDB_ScanKnownRecipes() and
+          RecipeRadarFrame:IsVisible()) then
+        RecipeRadar_InitVendorFilters()
+        RecipeRadar_InitRecipeFilters()
+        RecipeRadar_FrameUpdate()
+      end
+      return
+    end
+  end
 end
 
 -- Foreach function that prints a recipe link and its cost.

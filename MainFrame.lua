@@ -21,25 +21,29 @@ function RecipeRadar_MainFrame_Init()
 end
 
 function RecipeRadar_Toggle()
-
-   if (RecipeRadarFrame:IsVisible()) then
-      HideUIPanel(RecipeRadarFrame)
-   else
-      RecipeRadar_InitVendorFilters()
-      RecipeRadar_InitRecipeFilters()
-      RecipeRadar_Frame_Show()
-   end
-
+  if (RecipeRadarFrame:IsVisible()) then
+    HideUIPanel(RecipeRadarFrame)
+  else
+    RecipeRadar_Frame_Show()
+  end
 end
 
 function RecipeRadar_Frame_Show()
+  ShowUIPanel(RecipeRadarFrame)
 
-   ShowUIPanel(RecipeRadarFrame)
-   RecipeRadar_SkillDB_ParseSpellbookFrame()
-   RecipeRadar_SkillDB_ParseSkillFrame()
-   RecipeRadar_SkillDB_ParseReputationFrame()
-   RecipeRadar_FrameUpdate()
+  RecipeRadar_SkillDB_ParseSpellbookFrame()
+  RecipeRadar_SkillDB_ParseSkillFrame()
+  RecipeRadar_SkillDB_ParseReputationFrame()
 
+  -- the tooltips are the source of truth for "Already known"
+  RecipeRadar_SkillDB_ScanKnownRecipes()
+
+  -- filters are cached on each recipe: recompute them now that the
+  -- skill database is up to date
+  RecipeRadar_InitVendorFilters()
+  RecipeRadar_InitRecipeFilters()
+
+  RecipeRadar_FrameUpdate()
 end
 
 function RecipeRadar_FrameUpdate()
@@ -354,3 +358,4 @@ function RecipeRadar_StartMoving()
    end
 
 end
+

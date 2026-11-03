@@ -77,47 +77,53 @@ end
 -- Refreshes the DB for the current player and currently open skill window.
 -- prof_type is one of 'trade' or 'craft'.
 function RecipeRadar_SkillDB_Refresh(prof_type)
+  local profs = RecipeRadar_SkillDB_GetPlayerProfessions()
+  local prof_name, prof_rank, max_rank =
+    RecipeRadar_SkillDB_GetProfInfo(prof_type)
 
-   local profs = RecipeRadar_SkillDB_GetPlayerProfessions()
-   local prof_name, prof_rank, max_rank =
-         RecipeRadar_SkillDB_GetProfInfo(prof_type)
+  if (not prof_name) then -- Beast Training, for instance, will cause this
+    return
+  end
 
-   if (not prof_name) then  -- Beast Training, for instance, will cause this
-      return
-   end
-   
-   if (not profs[prof_name]) then profs[prof_name] = { } end
-   profs[prof_name].Rank = prof_rank
-   profs[prof_name].Recipes = { }
+  if (not profs[prof_name]) then profs[prof_name] = { } end
+  profs[prof_name].Rank = prof_rank
+  profs[prof_name].Recipes = { }
 
-   -- this line might help avoid the 0 count that I seem to get on
-   -- some early invocations of this function?
-   local dummy = RecipeRadar_SkillDB_GetRecipeCount(prof_type)
-   
-   -- iterate over each listed recipe in the currently open skill window
-   for i = 1, RecipeRadar_SkillDB_GetRecipeCount(prof_type) do
+  -- this line might help avoid the 0 count that I seem to get on
+  -- some early invocations of this function?
+  local dummy = RecipeRadar_SkillDB_GetRecipeCount(prof_type)
 
-      local recipe, hdr = RecipeRadar_SkillDB_GetRecipeInfo(prof_type, i)
+  -- iterate over each listed recipe in the currently open skill window
+  for i = 1, RecipeRadar_SkillDB_GetRecipeCount(prof_type) do
+    local recipe, hdr = RecipeRadar_SkillDB_GetRecipeInfo(prof_type, i)
 
-      if (recipe and hdr ~= "header") then
-
-         -- map craft window names to real recipe names
-         local map = RecipeRadar_NameMap[GetLocale()]
-         if (map and map[recipe]) then
-            profs[prof_name].Recipes[recipe] = nil
-            recipe = map[recipe]
-         end
-
-         -- if it's not a header, the character knows this recipe
-         profs[prof_name].Recipes[recipe] = 1
-
+    if (recipe and hdr ~= "header") then
+      -- map craft window names to real recipe names
+      local map = RecipeRadar_NameMap[GetLocale()]
+      if (map and map[recipe]) then
+        profs[prof_name].Recipes[recipe] = nil
+        recipe = map[recipe]
       end
 
-   end
+      -- if it's not a header, the character knows this recipe
+      profs[prof_name].Recipes[recipe] = 1
+    end
+  end
 
-   RecipeRadar_SkillDB_HandleSpecialCase(profs, prof_name, max_rank)
-   
+  RecipeRadar_SkillDB_HandleSpecialCase(profs, prof_name, max_rank)
+
+  -- the tooltips are the source of truth: re-add what the window missed
+  RecipeRadar_SkillDB_ScanKnownRecipes()
+
+  -- the availability filters are cached on each recipe, so refresh them
+  -- and redraw if the window is open (otherwise Frame_Show does it)
+  if (RecipeRadarFrame and RecipeRadarFrame:IsVisible()) then
+    RecipeRadar_InitVendorFilters()
+    RecipeRadar_InitRecipeFilters()
+    RecipeRadar_FrameUpdate()
+  end
 end
+
 
 -- Adds unlisted/implied "recipes" to the skill DB.
 function RecipeRadar_SkillDB_HandleSpecialCase(profs, prof_name, max_rank)
@@ -147,6 +153,56 @@ function RecipeRadar_SkillDB_HandleSpecialCase(profs, prof_name, max_rank)
    end
 
 end
+
+-- Marks as known every recipe that the game itself flags as "Already known"
+-- in its item tooltip. Only recipes that the DB considers learnable by the
+-- current player are scanned. Returns true if the DB changed.
+function RecipeRadar_SkillDB_ScanKnownRecipes()
+  if (not RecipeRadarScanTooltip) then
+    CreateFrame("GameTooltip", "RecipeRadarScanTooltip", nil,
+      "GameTooltipTemplate")
+  end
+
+  local tip = RecipeRadarScanTooltip
+  local known_text = ITEM_SPELL_KNOWN or "Already known"
+  local profs = RecipeRadar_SkillDB_GetPlayerProfessions()
+  local changed = false
+
+  for _, prof_data in RecipeRadar_RecipeData do
+    if (type(prof_data) == "table" and prof_data.Recipes) then
+      for _, recipe in prof_data.Recipes do
+        local p = profs[recipe.Type]
+
+        if (p and p.Recipes and
+            RecipeRadar_Availability_GetKey(recipe) == "LearnableByPlayer") then
+
+          -- only cached items: SetHyperlink on an unseen item can disconnect
+          if (GetItemInfo(recipe.ID)) then
+            tip:SetOwner(UIParent, "ANCHOR_NONE")
+            tip:ClearLines()
+            tip:SetHyperlink("item:" .. recipe.ID .. ":0:0:0")
+
+            for i = 1, tip:NumLines() do
+              local line = getglobal("RecipeRadarScanTooltipTextLeft" .. i)
+
+              if (line and line:GetText() == known_text) then
+                local name = RecipeRadar_GetSafeItemInfo(recipe.ID)
+                name = RecipeRadar_TrimRecipeLabel(name)
+                p.Recipes[name] = 1
+                changed = true
+                break
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+
+  tip:Hide()
+  return changed
+end
+
 
 -- Quick function to retrieve a profession rank.
 function RecipeRadar_SkillDB_GetRank(prof)
@@ -433,3 +489,4 @@ function RecipeRadar_SkillDB_ParseReputationFrame()
    RecipeRadar_SkillDB_HideReputationFrame()
    
 end
+
