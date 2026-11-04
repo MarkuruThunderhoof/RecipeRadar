@@ -37,6 +37,7 @@ if (GetLocale() == "sample") then
    RecipeRadar_Strings["Check Availability for Alts"] = ""
    RecipeRadar_Strings["Minimap Button Position"] = ""
    RecipeRadar_Strings["Show Minimap Button"] = ""
+   RecipeRadar_Strings["Hide Seasonal Vendors/Recipes"] = ""
 
    -- format strings used in the map tooltips
    RecipeRadar_Strings["1 recipe"] = ""
@@ -545,6 +546,7 @@ if (GetLocale() == "ruRU") then
    RecipeRadar_Strings["Check Availability for Alts"] = "Проверять доступность для альтов"
    RecipeRadar_Strings["Minimap Button Position"] = "Позиция кнопки у мини-карты"
    RecipeRadar_Strings["Show Minimap Button"] = "Показывать кнопку у мини-карты"
+   RecipeRadar_Strings["Hide Seasonal Vendors/Recipes"] = "Скрыть сезонных торговцев и рецепты"
 
    -- format strings used in the map tooltips
    RecipeRadar_Strings["1 recipe"] = "1 рецепт"
@@ -1152,6 +1154,7 @@ if (GetLocale() == "deDE") then
    RecipeRadar_Strings["Check Availability for Alts"] = "Verwendbarkeit für Alts prüfen"
    RecipeRadar_Strings["Minimap Button Position"] = "Position des Minimap-Button"
    RecipeRadar_Strings["Show Minimap Button"] = "Minimap-Button anzeigen"
+   RecipeRadar_Strings["Hide Seasonal Vendors/Recipes"] = "Saisonale Händler/Rezepte ausblenden"
    RecipeRadar_Strings["Options"] = "Optionen"
    RecipeRadar_Strings["%d learnable"] = "%d lernbar"
    RecipeRadar_Strings["%d recipes"] = "%d Rezepte"
@@ -1438,6 +1441,7 @@ if (GetLocale() == "frFR") then
    RecipeRadar_Strings["Check Availability for Alts"] = "Examinez la disponibilité pour assurer alts"
    RecipeRadar_Strings["Minimap Button Position"] = "Position De Bouton De Minimap"
    RecipeRadar_Strings["Show Minimap Button"] = "Montrez Le Bouton De Minimap"
+   RecipeRadar_Strings["Hide Seasonal Vendors/Recipes"] = "Masquer les marchands/recettes saisonniers"
    RecipeRadar_Strings["%d learnable"] = "%d utilisables"
    RecipeRadar_Strings["%d recipes"] = "%d recettes"
    RecipeRadar_Strings["1 recipe"] = "1 recette"
@@ -1564,6 +1568,7 @@ if (GetLocale() == "esES") then
    RecipeRadar_Strings["Check Availability for Alts"] = "Comprobar la disponibilidad para saber si hay alts"
    RecipeRadar_Strings["Minimap Button Position"] = "Posición del Icono"
    RecipeRadar_Strings["Show Minimap Button"] = "Mostrar botón en el Minimapa"
+   RecipeRadar_Strings["Hide Seasonal Vendors/Recipes"] = "Ocultar vendedores/recetas de temporada"
    RecipeRadar_Strings["Options"] = "Opciones"
    RecipeRadar_Strings["%d recipes"] = "%d recetas"
    RecipeRadar_Strings["1 recipe"] = "1 receta"

@@ -34,6 +34,8 @@ function RecipeRadar_OptionsFrame_Init()
    RecipeRadarAutoMapVendorsButton:SetChecked(
          RecipeRadar_Options.AutoMapVendors)
 
+   RecipeRadarHideSeasonalButton:SetChecked(
+         RecipeRadar_Options.HideSeasonal)
 end
 
 function RecipeRadar_OptionsFrame_OnShow()
@@ -204,4 +206,11 @@ function RecipeRadar_OptionsFrame_EnableDropDown(dropdown)
          HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b)
    getglobal(dropdown:GetName().."Button"):Enable()
 
+end
+
+function RecipeRadar_OptionsFrame_HideSeasonal_OnClick()
+   RecipeRadar_Options.HideSeasonal = RecipeRadarHideSeasonalButton:GetChecked()
+   RecipeRadar_InitVendorFilters()
+   RecipeRadar_InitRecipeFilters()
+   RecipeRadar_FrameUpdate()
 end

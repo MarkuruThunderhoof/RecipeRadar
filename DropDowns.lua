@@ -454,7 +454,9 @@ function RecipeRadar_InitVendorFilters()
    for _, vendor in region.Vendors do
 
       -- set team filter
+      local IsSeasonal = vendor.Notes == RRS("Seasonal")
       vendor.IsFiltered = RecipeRadar_IsTeamFiltered(vendor.Team)
+                        or (RecipeRadar_Options.HideSeasonal and IsSeasonal)
 
       for _, recipe in vendor.Recipes do
       
@@ -537,8 +539,14 @@ function RecipeRadar_InitRecipeFilters()
       RecipeRadar_Availability_SetAvailabilityFilter(recipe)
 
       for _, location in recipe.Locations do
-         -- set team filter
-         location.IsFiltered = RecipeRadar_IsTeamFiltered(location.Team)
+         local vendor = RecipeRadar_RecipesTab_FindVendor(location.Region, location.Vendor)
+
+         if (RecipeRadar_Options.HideSeasonal and vendor and vendor.Notes == RRS("Seasonal")) then
+            location.IsFiltered = true
+         else
+            -- set team filter
+            location.IsFiltered = RecipeRadar_IsTeamFiltered(location.Team)
+         end
       end
 
    end

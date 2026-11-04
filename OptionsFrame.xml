@@ -9,7 +9,7 @@
    <Frame name="RecipeRadarOptionsFrame" toplevel="true" frameStrata="DIALOG" movable="true" enableMouse="true" hidden="true" parent="UIParent" enableKeyboard="true">
 
       <Size>
-         <AbsDimension x="300" y="360"/>
+         <AbsDimension x="300" y="390"/>
       </Size>
       <Anchors>
          <Anchor point="CENTER"/>
@@ -202,6 +202,25 @@
                      RecipeRadar_Options.AutoMapVendors = false
                   end
                </OnClick>
+            </Scripts>
+         </CheckButton>
+
+         <!-- Hide seasonal vendors checkbox -->
+         <CheckButton name="RecipeRadarHideSeasonalButton" inherits="OptionsCheckButtonTemplate">
+            <Anchors>
+                <Anchor point="TOPLEFT" relativeTo="RecipeRadarAutoMapVendorsButton" relativePoint="BOTTOMLEFT">
+                <Offset>
+                    <AbsDimension x="0" y="-10"/>
+                </Offset>
+                </Anchor>
+            </Anchors>
+            <Scripts>
+               <OnLoad>
+                  getglobal(this:GetName() .. "Text"):SetText(RRS("Hide Seasonal Vendors/Recipes"))
+               </OnLoad>
+                <OnClick>
+                RecipeRadar_OptionsFrame_HideSeasonal_OnClick()
+                </OnClick>
             </Scripts>
          </CheckButton>
 
